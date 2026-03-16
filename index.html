@@ -111,7 +111,7 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
       <div class="site-sub">The Bézier Machete · Startup Intelligence</div>
     </div>
     <div class="header-right">
-      <div class="header-date">2026年03月16日 周一 · 共 230 条</div>
+      <div class="header-date">2026年03月16日 周一 · 共 69 条</div>
       <a href="history.html" class="history-link">📚 往期归档 →</a>
     </div>
   </div>
@@ -119,9 +119,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
 
 <!-- Tab 切换栏 -->
 <div class="tab-bar">
-  <button class="tab-btn active" onclick="switchTab('global', this)">🌍 海外机会 (154)</button>
-  <button class="tab-btn" onclick="switchTab('cn', this)">🇨🇳 国内热点 (59)</button>
-  <button class="tab-btn" onclick="switchTab('social', this)">📱 社媒信号 (17)</button>
+  <button class="tab-btn active" onclick="switchTab('global', this)">🌍 海外机会 (26)</button>
+  <button class="tab-btn" onclick="switchTab('cn', this)">🇨🇳 国内热点 (38)</button>
+  <button class="tab-btn" onclick="switchTab('social', this)">📱 社媒信号 (5)</button>
 </div>
 
 <!-- 吸顶导航（随 Tab 切换）-->
@@ -130,10 +130,10 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <a href="#section-💡" class="nav-link" data-tab="global">💡 机会信号</a><a href="#section-✅" class="nav-link" data-tab="global">✅ 成功案例</a><a href="#section-⚠️" class="nav-link" data-tab="global">⚠️ 竞品空缺</a><a href="#section-🔧" class="nav-link" data-tab="global">🔧 工具缺口</a><a href="#section-🌱" class="nav-link" data-tab="global">🌱 早期项目</a><a href="#section-📖" class="nav-link" data-tab="global">📖 方法论</a>
   </div>
   <div class="nav-inner" id="nav-cn" style="display:none">
-    <a href="#cn-section-💡" class="nav-link" data-tab="cn">💡 机会信号</a><a href="#cn-section-✅" class="nav-link" data-tab="cn">✅ 成功案例</a><a href="#cn-section-⚠️" class="nav-link" data-tab="cn">⚠️ 行业动态</a><a href="#cn-section-🔧" class="nav-link" data-tab="cn">🔧 工具产品</a><a href="#cn-section-📊" class="nav-link" data-tab="cn">📊 市场趋势</a><a href="#cn-section-🔥" class="nav-link" data-tab="cn">🔥 热门话题</a>
+    
   </div>
   <div class="nav-inner" id="nav-social" style="display:none">
-    <a href="#social-section-💡" class="nav-link" data-tab="social">💡 机会信号</a><a href="#social-section-✅" class="nav-link" data-tab="social">✅ 成功案例</a><a href="#social-section-🌱" class="nav-link" data-tab="social">🌱 产品发布</a><a href="#social-section-🔥" class="nav-link" data-tab="social">🔥 热门话题</a><a href="#social-section-📖" class="nav-link" data-tab="social">📖 经验分享</a>
+    <a href="#social-section-💡" class="nav-link" data-tab="social">💡 机会信号</a><a href="#social-section-✅" class="nav-link" data-tab="social">✅ 成功案例</a><a href="#social-section-🔥" class="nav-link" data-tab="social">🔥 热门话题</a>
   </div>
 </nav>
 
@@ -142,79 +142,31 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
 <main class="main">
   <div class="insight-box">
     <div class="insight-label">📌 今日洞察</div>
-    <div class="insight-text">**今日洞察 · 设计师创业版**<br><br>今天最值得盯的方向：**运动数据可视化周边**——把Strava轨迹做成海报，需求真实、设计师天然有优势，且已有人在验证付费意愿。<br><br>今天信号集中在一件事：**把"已有数据/内容"重新包装成更好用的产品**——YouTube课程结构化、学术库聚合、Strava分析……用户不缺数据，缺的是好的呈现层。<br><br>**给你的行动建议：** 挑一个你自己就在用的数据平台（运动/学习/笔记），用设计+Vibe coding在一周内做出一个"让数据好看又好用"的MVP，先发Reddit社区验证，别等准备好了再动。</div>
+    <div class="insight-text">**今日洞察 · 设计师创业版**<br><br>今天最值得盯的方向：**把"重复的笨操作"包一层AI或结构化界面**——Strava数据分析、YouTube课程化、学校Excel替换，本质都是同一件事。<br><br>今天的信号很集中：**真实痛点 > 聪明创意**，那个靠学校口碑裂变的20岁开发者，和首周42人候补的团队，都没做推广，只是把一个具体的烦恼解决干净了。<br><br>**给你的行动建议：** 找一个你自己每周都在重复的"丑陋工作流"，用Cursor包一个界面，先卖给和你一样的人。</div>
   </div>
-  <div class="stats-row"><div class="stat-chip"><span>💡</span><strong>43</strong><small>机会信号</small></div><div class="stat-chip"><span>✅</span><strong>11</strong><small>成功案例</small></div><div class="stat-chip"><span>⚠️</span><strong>1</strong><small>竞品空缺</small></div><div class="stat-chip"><span>🔧</span><strong>8</strong><small>工具缺口</small></div><div class="stat-chip"><span>🌱</span><strong>64</strong><small>早期项目</small></div><div class="stat-chip"><span>📖</span><strong>27</strong><small>方法论</small></div></div>
+  <div class="stats-row"><div class="stat-chip"><span>💡</span><strong>5</strong><small>机会信号</small></div><div class="stat-chip"><span>✅</span><strong>1</strong><small>成功案例</small></div><div class="stat-chip"><span>⚠️</span><strong>2</strong><small>竞品空缺</small></div><div class="stat-chip"><span>🔧</span><strong>3</strong><small>工具缺口</small></div><div class="stat-chip"><span>🌱</span><strong>9</strong><small>早期项目</small></div><div class="stat-chip"><span>📖</span><strong>6</strong><small>方法论</small></div></div>
   
   <section class="signal-section" id="section-💡">
-    <h2 class="section-title">💡 机会信号 <span class="section-count">43</span></h2>
+    <h2 class="section-title">💡 机会信号 <span class="section-count">5</span></h2>
     
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rul1u5/an_app_to_help_me_be_a_better_friend/" target="_blank" rel="noopener" class="item-title">做了一个帮自己记住朋友生活细节的App，解决社交记忆焦虑</a>
+        <a href="https://www.reddit.com/r/SideProject/comments/1rv0h00/i_built_a_website_to_transform_youtube_tutorial/" target="_blank" rel="noopener" class="item-title">把YouTube教程播放列表转化为结构化课程的工具</a>
       </div>
-      <p class="item-summary">开发者因记不住朋友聊天中提到的生活细节而产生社交焦虑，于是构建了一个私人关系记录工具。这是一个典型的"个人CRM/关系管理"需求信号——记录朋友信息、设置跟进提醒，现有工具（如Monica CRM）存在但仍有用户自己动手造，说明该赛道仍有差异化空间。</p>
+      <p class="item-summary">开发者因YouTube学习体验混乱，做了一个将播放列表转成可追踪进度结构化课程的工具。自学者市场庞大，现有工具无此功能，且内容消费习惯强烈，付费意愿可通过会员制验证。</p>
       <div class="item-meta">
         <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 02:06</span>
-        <span class="meta-stat">👍 211</span><span class="meta-stat">💬 92</span>
+        <span class="meta-time">03-16 13:03</span>
+        <span class="meta-stat">👍 11</span><span class="meta-stat">💬 2</span>
       </div>
     </div>
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv6841/saas_payments/" target="_blank" rel="noopener" class="item-title">乌克兰开发者被Stripe/Dodo/LemonSqueezy全部拒绝，求支付方案</a>
+        <a href="https://www.reddit.com/r/EntrepreneurRideAlong/comments/1ruevwr/42_waitlist_signups_in_first_week_as_a_first/" target="_blank" rel="noopener" class="item-title">首次做产品，第一周获42个候补名单——AI编码助手"项目后期漂移"是真实痛点</a>
       </div>
-      <p class="item-summary">乌克兰独立开发者反映主流SaaS支付平台（Stripe、Dodo Payments、Lemon Squeezy）均不支持乌克兰注册主体，本地支付商又无法收国际款。这是一个被忽视的真实痛点——面向东欧/制裁地区开发者的合规收款解决方案存在明显市场空缺。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 18:54</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv6gli/strava_activities_into_high_resolution_image/" target="_blank" rel="noopener" class="item-title">将Strava运动轨迹转化为高清海报图</a>
-      </div>
-      <p class="item-summary">Strava多年用户发现平台缺乏将跑步轨迹可视化为城市/国家/全球地图并打印成海报的功能。开发者正在验证该想法并征集反馈。运动数据可视化+个性化实体周边是已有成功先例的细分赛道（如Strava Art类产品）。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 19:07</span>
-        <span class="meta-stat">👍 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/Entrepreneur/comments/1rv71uq/i_write_a_weekly_patent_analysis_newsletter_and/" target="_blank" rel="noopener" class="item-title">我写了一份每周专利分析Newsletter，但不知道如何在X/Twitter上从零涨粉</a>
-      </div>
-      <p class="item-summary">作者长期深度解读专利文件并关联市场动态（如Meta"数字幽灵"专利背后的AI社媒基础设施逻辑），已有内容积累但缺乏X平台分发能力。这是一个典型的"内容有价值但缺增长方法论"的信号，也侧面说明专利情报类垂直Newsletter存在受众需求。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/Entrepreneur</span>
-        <span class="meta-time">03-16 19:38</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/EntrepreneurRideAlong/comments/1rummm7/what_happens_to_your_products_design_knowledge/" target="_blank" rel="noopener" class="item-title">开发者离职后，产品的设计知识去哪了？</a>
-      </div>
-      <p class="item-summary">独立开发者指出一个普遍痛点：solo开发者构建客户产品时没有文档，离职后"为什么这样设计"的隐性知识全部消失，新接手的人无从理解。暗示存在一个面向小团队/独立开发者的"设计决策文档化工具"机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/EntrepreneurRideAlong</span>
-        <span class="meta-time">03-16 03:05</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/EntrepreneurRideAlong/comments/1ruevwr/42_waitlist_signups_in_first_week_as_a_first/" target="_blank" rel="noopener" class="item-title">首次创业，第一周42个候补名单注册——这是我的做法</a>
-      </div>
-      <p class="item-summary">两人团队从零开始（无受众、无Twitter粉丝）做产品，解决AI编程助手在项目进行到第3周后开始"漂移"——破坏代码模式、遗忘架构上下文的问题。第一周获42个候补注册，分享了冷启动方法。AI辅助编程的上下文管理是真实痛点。</p>
+      <p class="item-summary">两人团队无任何受众基础，首周获42个候补注册，解决的问题是AI编程助手在项目第3周后开始"漂移"——破坏代码模式、遗忘架构决策。这个痛点高频且具体，独立开发者可验证是否存在可付费的解决方案空间。</p>
       <div class="item-meta">
         <span class="meta-source">r/EntrepreneurRideAlong</span>
         <span class="meta-time">03-15 22:04</span>
@@ -224,249 +176,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/startups/comments/1runlho/trying_out_different_marketing_strategies_nothing/" target="_blank" rel="noopener" class="item-title">尝试了各种营销策略，SaaS试用注册量就是不增长</a>
+        <a href="https://www.reddit.com/r/nocode/comments/1runleu/best_way_to_automate_website_quote_requests_using/" target="_blank" rel="noopener" class="item-title">如何将Excel报价模型自动化到网站上？</a>
       </div>
-      <p class="item-summary">SaaS创始人反映：只做LinkedIn发帖只能触达自己的人脉圈，试用注册量连续几个月停滞不增长。这是早期SaaS的典型获客困境，评论区可能有可复用的冷启动方法论，对同处此阶段的独立开发者有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startups</span>
-        <span class="meta-time">03-16 03:42</span>
-        <span class="meta-stat">👍 12</span><span class="meta-stat">💬 30</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/startups/comments/1ru7x4a/built_an_enterprise_rag_architecture_for_2_years/" target="_blank" rel="noopener" class="item-title">花2年构建企业级RAG系统，成果被"20年经验"创始人冒认——开源还是转SaaS？</a>
-      </div>
-      <p class="item-summary">开发者历时2年构建复杂企业RAG系统（含多通道共识架构、布局感知解析、微服务），成果被他人冒认为AI产品"精选作品"。帖子引发关于开源贡献者如何保护成果、以及何时应将开源项目转为商业SaaS的讨论，是典型的"技术变现路径"信号。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startups</span>
-        <span class="meta-time">03-15 15:36</span>
-        <span class="meta-stat">👍 103</span><span class="meta-stat">💬 58</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/startups/comments/1ru5sum/how_do_apps_like_focusflight_grow_and_monetizei/" target="_blank" rel="noopener" class="item-title">FocusFlight类专注/效率App是如何增长和变现的？</a>
-      </div>
-      <p class="item-summary">用户想做类似FocusFlight的专注类App，但不清楚该细分市场的商业模式和增长策略。观察到该类App主要靠Instagram/TikTok上的"颜值内容"做营销，但付费推广和变现路径不明。说明颜值向效率工具赛道存在信息差，有人在寻找可复用的打法。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startups</span>
-        <span class="meta-time">03-15 13:28</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/startups/comments/1ru39og/building_a_finance_app_with_zero_experience_i/" target="_blank" rel="noopener" class="item-title">零经验做个人财务App：发现自己每年多付$600利息才意识到需求真实存在</a>
-      </div>
-      <p class="item-summary">用户有3张信用卡，手动计算跨卡利息极其繁琐，发现自己每年多浪费$600。现有记账App无法清晰显示"该优先还哪张卡"。这是一个真实的个人信用卡管理痛点信号，轻量级"信用卡还款优化工具"存在市场空缺。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startups</span>
-        <span class="meta-time">03-15 11:14</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 6</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv56r8/how_are_founders_recording_saas_demo_videos_for/" target="_blank" rel="noopener" class="item-title">SaaS创始人如何为不同平台录制演示视频？</a>
-      </div>
-      <p class="item-summary">创始人在录制产品Demo时面临多平台尺寸适配痛点：同一段视频需要适配YouTube、LinkedIn、Twitter、Shorts等不同比例格式，重复剪辑耗时。这是一个针对独立开发者/创始人群体的视频自动化改尺寸工具机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 17:53</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1rv2b7f/i_need_tech_eo_insurance_for_my_ai_saas_business/" target="_blank" rel="noopener" class="item-title">我的 AI SaaS 业务需要技术错误与疏漏保险（Tech E&O）</a>
-      </div>
-      <p class="item-summary">AI SaaS 创始人在对接企业客户时被要求提供"模型决策出错的责任险"，但不清楚标准 Tech E&O 是否覆盖 AI 决策风险。这是一个真实的企业采购痛点——围绕"AI SaaS 合规/保险咨询/风险评估"存在工具或服务机会，尤其面向无法自行处理法务的独立开发者。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SaaS</span>
-        <span class="meta-time">03-16 14:52</span>
-        <span class="meta-stat">👍 16</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1rv7czg/i_built_a_saas_now_i_feel_stuck/" target="_blank" rel="noopener" class="item-title">我做了一个SaaS，现在感觉卡住了</a>
-      </div>
-      <p class="item-summary">独立开发者从去年11月开始solo开发餐厅数字菜单SaaS：用户登录后录入菜品、生成桌号二维码，支持多语言翻译。产品和落地页都有了，但不知道如何获客和推广。典型的"产品做完不知道怎么卖"困境，评论区可能有增长建议值得参考。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SaaS</span>
-        <span class="meta-time">03-16 19:54</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1rv7abi/it_managers_honest_question/" target="_blank" rel="noopener" class="item-title">IT经理们，诚实问一句：你们现在怎么处理支持工单的？</a>
-      </div>
-      <p class="item-summary">作者在做用户调研，询问IT团队当前如何管理支持工单（共享收件箱/Slack/正式工单系统/表格便利贴），并明确表示正在构建一个解决"用Gmail/Slack凑合管工单"痛点的产品。这是一个真实需求验证帖，评论区反馈可作为IT支持工具的市场信号。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SaaS</span>
-        <span class="meta-time">03-16 19:51</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv7n22/built_a_free_medical_research_tool_the_prompt/" target="_blank" rel="noopener" class="item-title">我构建了一个免费医疗研究工具——健康AI的提示词工程是个完全不同的问题</a>
-      </div>
-      <p class="item-summary">开发者在构建医疗研究AI工具过程中发现：健康领域的prompt engineering与通用AI有本质差异，是独立的技术挑战。这既是早期工具项目信号，也暗示"医疗健康垂直AI工具"存在尚未被充分解决的产品机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 20:08</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/SomebodyMakeThis/comments/1rtyl79/creating_something_that_churns_leads_for_multiple/" target="_blank" rel="noopener" class="item-title">有人想要一个能为多个行业批量生成销售线索的工具</a>
-      </div>
-      <p class="item-summary">一位广告主动要求开发者做一个多行业线索生成平台（已有太阳能行业案例站点 gosolartoday.co.uk 作为参考），并愿意付费。这是一个来自真实客户的需求信号：可复用的落地页+线索捕获SaaS，按行业模板化复制，潜在商业模式清晰。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SomebodyMakeThis</span>
-        <span class="meta-time">03-15 07:37</span>
-        <span class="meta-stat">👍 1</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1rv5t0l/app_idea_for_founders_who_cant_get_their_first/" target="_blank" rel="noopener" class="item-title">帮助创始人获得第一个付费客户的App想法——现有"验证建议"太模糊</a>
-      </div>
-      <p class="item-summary">作者指出大量创始人卡在"获得第一个客户"而非"做出产品"，现有建议（"验证想法""和客户聊"）过于抽象无法执行。他设想一款提供具体行动步骤的工具来解决这个问题。该痛点在独立开发者社区高度共鸣，是一个可做成轻量SaaS或工具的机会方向。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-16 18:29</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 14</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1ruco30/youtube_study_app_idea_feedback_please/" target="_blank" rel="noopener" class="item-title">把YouTube播放列表变成个性化课程的学习App</a>
-      </div>
-      <p class="item-summary">用户提出：输入YouTube播放列表链接+学习时间约束（如"3周内学完"或"每天45分钟"），自动生成每日学习计划、进度提醒和知识测验。评论区在征集反馈，说明需求尚未被满足，适合做轻量Web工具切入。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-15 20:22</span>
-        <span class="meta-stat">👍 9</span><span class="meta-stat">💬 11</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1rui2u3/would_you_use_a_private_ai_search_for_your_phone/" target="_blank" rel="noopener" class="item-title">手机本地私密AI搜索：找照片/截图/PDF/笔记</a>
-      </div>
-      <p class="item-summary">用户痛点真实：手机里存了大量白板照片、菜单截图、文件，但根本找不到。现有系统搜索能力弱，云端AI又有隐私顾虑。作者在探索全本地化AI搜索方案。隐私+实用双需求，工具型产品机会，技术上已有可行路径（本地模型）。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-16 00:11</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1rtyl4w/is_there_an_actually_good_app_idea_in_posture/" target="_blank" rel="noopener" class="item-title">"久坐不动"比"姿势不好"更值得做——桌面工作者健康App再思考</a>
-      </div>
-      <p class="item-summary">作者分析姿势矫正App赛道后发现：真正的痛点不是某个坏姿势，而是长时间保持同一姿势缺乏变化。由此引出更有价值的方向：追踪身体活动多样性、提醒定时换姿势/起身。思路有方法论价值，对想做健康类工具的开发者有参考意义。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-15 07:37</span>
-        <span class="meta-stat">👍 6</span><span class="meta-stat">💬 4</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/startupideas/comments/1rv7l3g/building_a_tool_that_turns_thinking_out_loud_into/" target="_blank" rel="noopener" class="item-title">把"大声思考"直接转化为结构化图表的工具——想知道别人是否也需要</a>
-      </div>
-      <p class="item-summary">开发者发现Miro/Figma/Whimsical等工具仍需手动操作，无法直接将口头/文字思维流转化为结构化图表。正在构建"语音/文字→自动生成图表"的工具，属于AI+可视化思维的真实需求缺口，在验证市场阶段。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startupideas</span>
-        <span class="meta-time">03-16 20:05</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/startupideas/comments/1ruyo5b/exploring_an_idea_about_preserving_personal/" target="_blank" rel="noopener" class="item-title">探索"个人遗产保存"平台创意——征求意见</a>
-      </div>
-      <p class="item-summary">开发者在探索一个数字遗产平台：解决人去世或失能后，重要账户、文件、遗愿等信息无人知晓的问题。数字遗产/身后事管理是被严重低估的细分赛道，目前处于创意验证阶段，求反馈。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startupideas</span>
-        <span class="meta-time">03-16 11:29</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/1rv4ho3/i_built_a_document_toolkit_that_never_uploads/" target="_blank" rel="noopener" class="item-title">我做了一个本地处理文档的工具套件，文件从不上传到服务器</a>
-      </div>
-      <p class="item-summary">开发者发现主流PDF压缩、文件转换工具几乎都要上传文件到服务器，存在隐私隐患。针对合同、身份证、发票等敏感文件场景，构建了纯本地处理的文档工具套件。隐私优先是明确的差异化卖点，有付费潜力。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/InternetIsBeautiful</span>
-        <span class="meta-time">03-16 17:10</span>
-        <span class="meta-stat">💬 11</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1rv863a/whats_the_one_automation_that_made_you_realise/" target="_blank" rel="noopener" class="item-title">哪个自动化让你意识到：这件事根本不该被手动做这么久？</a>
-      </div>
-      <p class="item-summary">高互动讨论帖，用户分享各自"第一次跑通自动化后恍然大悟"的时刻。评论区是挖掘真实痛点的富矿——用户主动描述长期忍受的手动流程，是识别自动化工具缺口的一手信号来源。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 20:33</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1rus0j5/does_anyone_else_feel_like_half_the_nocode_tools/" target="_blank" rel="noopener" class="item-title">有没有人觉得，一半的无代码工具解决的问题是其他无代码工具造成的？</a>
-      </div>
-      <p class="item-summary">用户吐槽无代码生态的"依赖地狱"：需要工具B因为工具A不够用，再加工具C因为B和A不兼容，最终用4个工具做本该一个工具搞定的事。这是对"一体化轻量自动化工具"的强烈需求信号，评论区共鸣度高。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 06:33</span>
-        <span class="meta-stat">👍 4</span><span class="meta-stat">💬 11</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1rv3h1m/im_a_pm_with_zero_dev_skills_heres_how_i_built_3/" target="_blank" rel="noopener" class="item-title">我是零代码能力的PM，一个下午用AI搭了3个内部工具</a>
-      </div>
-      <p class="item-summary">12人初创公司PM用MiniMax Agent在一个下午搭建了客户入职追踪、内部报告等3个内部工具，绕过了Zapier/Airtable的定制化瓶颈。印证了"小团队内部工具"是AI构建工具的强需求场景，也是独立开发者可切入的SaaS方向。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 16:05</span>
-        <span class="meta-stat">💬 4</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1runleu/best_way_to_automate_website_quote_requests_using/" target="_blank" rel="noopener" class="item-title">如何用现有Excel定价模型自动化WordPress网站的报价请求？</a>
-      </div>
-      <p class="item-summary">用户经营露台建造业务，希望将已有Excel定价逻辑接入WordPress表单，实现自动报价。这是典型的"传统行业小业主有Excel定价模型但缺乏自动化报价工具"的需求，类似场景在装修、定制家具等行业普遍存在，是垂直SaaS切入点。</p>
+      <p class="item-summary">一个露台建造商想把现有Excel定价模型变成网站自动报价系统（客户选尺寸/选项→自动出价），但找不到好方案。这类"把线下Excel流程搬到线上"的垂直报价SaaS需求在建材、装修等行业普遍存在，竞品少且传统。</p>
       <div class="item-meta">
         <span class="meta-source">r/nocode</span>
         <span class="meta-time">03-16 03:42</span>
@@ -476,81 +188,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1ruoj80/after_6_years_in_airtable_i_had_to_audit_the_base/" target="_blank" rel="noopener" class="item-title">用了6年Airtable后迁移自建应用，数据审计才是真正的难题</a>
+        <a href="https://www.reddit.com/r/productivity/comments/1runc8e/app_to_track_daily_progress_on_tasksprojects/" target="_blank" rel="noopener" class="item-title">求推荐：能追踪多个小项目每日进度、类甘特图展示的 App</a>
       </div>
-      <p class="item-summary">创始人将公司从Airtable迁移到自定义应用，发现最难的不是导出数据，而是搞清楚哪些数据还有用——6年积累了大量冗余字段、废弃流程和无人维护的自动化。这暗示存在一个机会：帮助用户从Airtable/Notion等工具迁移时做数据清洗和结构梳理的工具或服务。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 04:18</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/webdev/comments/1rv5v39/is_setting_up_saas_payments_still_painful_in_2026/" target="_blank" rel="noopener" class="item-title">2026年搭建SaaS支付系统还是很痛苦吗？</a>
-      </div>
-      <p class="item-summary">开发者抱怨SaaS完整支付体系搭建依然繁琐——不只是加个结账按钮，而是产品定价、订阅/用量计费、Webhook、客户门户等全套流程整合起来耗时费力。这是一个典型的开发者痛点信号，轻量化支付配置工具或模板存在需求空间。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/webdev</span>
-        <span class="meta-time">03-16 18:33</span>
-        <span class="meta-stat">💬 6</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/webdev/comments/1rv5rmt/mobile_gui_for_mongodb/" target="_blank" rel="noopener" class="item-title">有没有好用的MongoDB手机客户端？</a>
-      </div>
-      <p class="item-summary">开发者抱怨离开电脑后无法用手机管理MongoDB数据库，现有工具（如Compass）没有移动端。该用户甚至表示愿意自己动手做一个轻量移动端DB管理工具，说明这是真实存在的需求缺口，适合做成简洁的Web App或PWA。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/webdev</span>
-        <span class="meta-time">03-16 18:27</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/webdev/comments/1rulzj8/do_you_document_the_ui_as_you_build_or_just_leave/" target="_blank" rel="noopener" class="item-title">你是边做边写UI文档，还是全留在代码里？</a>
-      </div>
-      <p class="item-summary">开发者反映没有设计文档流程，项目交接时无Figma文件可提供，接手他人项目时也面临同样困境。这是一个关于"设计-开发文档断层"的真实痛点，暗示存在自动从代码/截图反向生成设计文档或UI规范工具的需求。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/webdev</span>
-        <span class="meta-time">03-16 02:41</span>
-        <span class="meta-stat">👍 7</span><span class="meta-stat">💬 27</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/productivity/comments/1rv14j2/how_do_you_document_onboarding_steps_for_new/" target="_blank" rel="noopener" class="item-title">如何避免每次入职都重复讲同样的流程？</a>
-      </div>
-      <p class="item-summary">一位HR经理抱怨每月招2-4人，每次都要手动带新员工配置邮件、Slack、2FA、内部系统，占用大量时间。这是典型的"重复性入职流程自动化"需求信号，指向轻量级员工入职SaaS/工具的机会，现有方案（如Notion手册）无法自动执行操作步骤。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/productivity</span>
-        <span class="meta-time">03-16 13:41</span>
-        <span class="meta-stat">👍 8</span><span class="meta-stat">💬 7</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/productivity/comments/1rv7e49/how_do_you_usually_write_release_notes_after/" target="_blank" rel="noopener" class="item-title">你们发布更新后怎么写Release Notes？</a>
-      </div>
-      <p class="item-summary">开发者抱怨每次发版后写Release Notes耗时超预期：需要手动整理commits、过滤无关内容、将技术语言转化为用户可读文案。这是一个明确的工具缺口信号，适合做"自动从Git commits生成用户友好更新日志"的小工具/SaaS，目标用户是独立开发者和小团队。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/productivity</span>
-        <span class="meta-time">03-16 19:56</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/productivity/comments/1runc8e/app_to_track_daily_progress_on_tasksprojects/" target="_blank" rel="noopener" class="item-title">寻找能追踪每日任务进度并支持甘特图视图的应用</a>
-      </div>
-      <p class="item-summary">用户有多个小项目，需要一款能每日打卡记录"今天做了哪些项目"、并能以甘特图或可导出Excel方式展示进度的工具。表示试过所有主流应用都不满足需求。这是一个轻量项目追踪+时间线可视化的细分工具缺口。</p>
+      <p class="item-summary">用户试遍主流工具均不满足需求：想要每日 check-in + 跨项目进度可视化（甘特图或可导出 Excel）。这是个被大工具忽视的细分场景，轻量项目追踪 SaaS 存在明确需求缺口。</p>
       <div class="item-meta">
         <span class="meta-source">r/productivity</span>
         <span class="meta-time">03-16 03:32</span>
@@ -560,309 +200,81 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/productivity/comments/1rv262e/want_alarm_apps_recommendations_that_arent_only/" target="_blank" rel="noopener" class="item-title">想要不只用于起床的闹钟类提醒应用推荐</a>
+        <a href="https://www.reddit.com/r/passive_income/comments/1rv8als/i_built_a_small_tool_that_helps_me_generate/" target="_blank" rel="noopener" class="item-title">开发者自建工具将旧博客文章自动生成Pinterest图文，实现持续被动流量</a>
       </div>
-      <p class="item-summary">用户反映习惯追踪/清单类应用通知太弱、对注意力涣散的大脑无效，反而用闹钟做任务提醒更有效。但现有闹钟应用只针对起床场景。这是一个"强提醒+任务调度"类工具的需求信号，适合做成比通知更侵入式的提醒SaaS或PWA。</p>
+      <p class="item-summary">作者因手动制作Pinterest图片太耗时，自建了一个将旧博客内容批量转化为Pinterest Pin的工具，现在博客和联盟链接获得24/7持续流量。内容创作者普遍有此痛点，现有工具要么太贵要么功能割裂，存在轻量级自动化SaaS的切入空间。</p>
       <div class="item-meta">
-        <span class="meta-source">r/productivity</span>
-        <span class="meta-time">03-16 14:43</span>
+        <span class="meta-source">r/passive_income</span>
+        <span class="meta-time">03-16 20:39</span>
         <span class="meta-stat">👍 1</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1ru5hnp/antinote_but_will_store_images/" target="_blank" rel="noopener" class="item-title">用户找不到支持图片的悬浮快速笔记工具</a>
-      </div>
-      <p class="item-summary">用户想要类似Antinote的轻量悬浮笔记窗口，但需要支持粘贴图片，现有工具均无法满足。这是一个小而明确的工具缺口：研究场景下的图文混排快速笔记，现有方案要么不支持图片，要么太重。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 13:11</span>
-        <span class="meta-stat">👍 13</span><span class="meta-stat">💬 30</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1ru9l85/recommendation_for_a_keyboard_screen_recording/" target="_blank" rel="noopener" class="item-title">开发者找不到合适的键盘按键可视化录屏工具</a>
-      </div>
-      <p class="item-summary">开发者在制作产品演示视频时，需要一款能实时显示虚拟键盘并高亮按键操作的录屏辅助工具，但找不到满意的方案。这是面向开发者/教程创作者的小众工具需求，现有解决方案不完善。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 17:21</span>
-        <span class="meta-stat">👍 6</span><span class="meta-stat">💬 12</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1rtsjcf/forklift_alternatives/" target="_blank" rel="noopener" class="item-title">用户寻找macOS上类似Krusader的双栏文件管理器替代Forklift</a>
-      </div>
-      <p class="item-summary">用户购买Forklift后不满意，寻找macOS上支持双栏视图+键盘快捷键操作的文件管理器，但现有选项均不理想。评论区可能有同类需求聚集，macOS高效文件管理工具存在用户缺口。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 03:31</span>
-        <span class="meta-stat">👍 31</span><span class="meta-stat">💬 40</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1ru8g8q/midi_to_macro_apps/" target="_blank" rel="noopener" class="item-title">用户找不到MIDI控制器映射到宏操作的工具（非音乐用途）</a>
-      </div>
-      <p class="item-summary">用户想用MIDI控制器触发电脑宏操作（非音乐场景），询问是否有此类工具存在。这是一个小众但明确的工具缺口，适合做成轻量macOS工具，目标用户为创意工作者/直播主/效率极客。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 16:10</span>
-        <span class="meta-stat">👍 1</span><span class="meta-stat">💬 7</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1rtwqx3/app_to_pin_windows_to_specific_desktops/" target="_blank" rel="noopener" class="item-title">macOS窗口固定到指定桌面的工具需求</a>
-      </div>
-      <p class="item-summary">用户反映macOS原生"固定到此桌面"功能不稳定，搜索后发现现有工具要么停更、要么功能不符合需求。这是一个小而明确的macOS效率工具缺口，目标用户是多桌面重度用户，适合做轻量级菜单栏工具。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 06:20</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 4</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1ru443e/app_that_can_auto_convert_a_wav_file_to_other/" target="_blank" rel="noopener" class="item-title">自动批量转换音频格式的工具需求</a>
-      </div>
-      <p class="item-summary">用户试用了Consul及其两款竞品后仍未找到满意方案，核心需求是：无需手动改扩展名、能递归处理文件夹的自动音频格式转换工具。现有工具存在操作摩擦，是一个小众但需求明确的桌面/CLI工具机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 11:58</span>
-        <span class="meta-stat">💬 9</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://news.ycombinator.com/item?id=47385213" target="_blank" rel="noopener" class="item-title">Ask HN: 创始人把我做了两年的RAG架构当作他AI产品的"精选作品"对外宣传</a>
-      </div>
-      <p class="item-summary">开发者遭遇创始人盗用其核心技术成果（RAG架构）对外展示的纠纷，引发讨论。折射出独立开发者/外包开发者在知识产权保护、合同约定方面的普遍痛点，可能存在合同管理/IP保护工具的机会信号。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·需求征集</span>
-        <span class="meta-time">03-15 15:51</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://news.ycombinator.com/item?id=47376451" target="_blank" rel="noopener" class="item-title">Ask HN: 你如何在编程之外使用 Coding Agent / CLI 工具？</a>
-      </div>
-      <p class="item-summary">HN用户探讨将Coding Agent/CLI用于非编程场景（如文档处理、自动化工作流、数据分析等），评论区可能汇聚大量真实使用场景。这是挖掘AI工具非开发者用例的好信号，适合做垂直场景的AI自动化工具。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·需求征集</span>
-        <span class="meta-time">03-14 21:24</span>
-        <span class="meta-stat">👍 4</span><span class="meta-stat">💬 6</span>
       </div>
     </div>
   </section>
   <section class="signal-section" id="section-✅">
-    <h2 class="section-title">✅ 成功案例 <span class="section-count">11</span></h2>
+    <h2 class="section-title">✅ 成功案例 <span class="section-count">1</span></h2>
     
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv3sng/i_got_banned_from_rgarmin_mass_ignored_on_product/" target="_blank" rel="noopener" class="item-title">被Garmin社区封禁、被Product Hunt无视，却赚到了人生第一个$20</a>
+        <a href="https://www.reddit.com/r/Entrepreneur/comments/1rudp5z/i_built_a_school_management_software_for_one/" target="_blank" rel="noopener" class="item-title">我给一所学校做了管理系统，另外两所学校主动找上门来用</a>
       </div>
-      <p class="item-summary">开发者长期手动把Strava跑步数据粘贴进ChatGPT分析，觉得麻烦后做成产品。首日被r/Garmin封号、Product Hunt无人问津，但仍收到第一笔$20收入。典型的"自己是目标用户"路径验证案例，运动数据+AI分析是可行的细分切入点。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 16:26</span>
-        <span class="meta-stat">👍 6</span><span class="meta-stat">💬 15</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/Entrepreneur/comments/1rudp5z/i_built_a_school_management_software_for_one/" target="_blank" rel="noopener" class="item-title">我为一所学校做了校务管理系统，另外两所学校没经过我推销就自己开始用了</a>
-      </div>
-      <p class="item-summary">20岁比利时自由开发者，帮一所学校把Excel学生数据、手写事故记录、手动拼凑的检查报告整合成一套系统。上线后，另外两所学校主动找来要用。典型的"从一个客户做起、靠口碑扩散"的垂直SaaS路径，学校管理软件需求真实存在且获客成本极低。</p>
+      <p class="item-summary">20岁比利时自由开发者，为一所学校把Excel+笔记本的混乱数据做成管理系统，未做任何推销，两所新学校主动开始使用。学校管理软件需求真实且可复制，细分市场竞品少，单客户定制切入、口碑扩散是可行路径。</p>
       <div class="item-meta">
         <span class="meta-source">r/Entrepreneur</span>
         <span class="meta-time">03-15 21:12</span>
         <span class="meta-stat">👍 66</span><span class="meta-stat">💬 66</span>
       </div>
     </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv63cu/if_youre_starting_a_saas_in_2026_do_this_how_we/" target="_blank" rel="noopener" class="item-title">2026年做SaaS该怎么做：我们9个月做到$1M ARR的方法</a>
-      </div>
-      <p class="item-summary">作者声称旗下GojiberryAI在9个月内从$0增长至$1M ARR，并发布了免费课程拆解具体策略。提供了收入验证链接（trustmrr.com）。内容定位为无理论、纯实操的增长方法论，对独立SaaS开发者有一定参考价值，但需自行核实数据真实性。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 18:46</span>
-        <span class="meta-stat">👍 6</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1ruzpdk/i_hit_680_paying_customers_in_under_a_year_heres/" target="_blank" rel="noopener" class="item-title">不到一年获得680名付费用户，我总结了哪些有效、哪些是浪费时间</a>
-      </div>
-      <p class="item-summary">创始人分享从连续三款产品零增长到不足一年获得680名付费用户的逆转经历。核心转折点是：从"解决自己臆想的问题"转向"解决真实存在的问题"。含具体方法论，有实际付费用户数据支撑，参考价值高。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 12:22</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 10</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1ruxwj7/i_got_tired_of_paying_for_saas_tools_while/" target="_blank" rel="noopener" class="item-title">我厌倦了一边做 SaaS 一边付费用 SaaS 工具，于是自己造了一套，每月运营成本 4 美元</a>
-      </div>
-      <p class="item-summary">作者利用 Lovable 免费日，一口气用 AI 辅助编程搭建了多个自用工具，将每月 SaaS 订阅支出压缩到 $4。典型的"设计师+Vibecoding"路径验证案例——用 AI 快速构建内部工具替代付费订阅，同时验证了这类轻量工具的产品化潜力。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SaaS</span>
-        <span class="meta-time">03-16 10:53</span>
-        <span class="meta-stat">👍 15</span><span class="meta-stat">💬 10</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv7q6g/guys_i_think_its_happening_a_paid_user_that/" target="_blank" rel="noopener" class="item-title">第一个付费用户出现了！</a>
-      </div>
-      <p class="item-summary">独立开发者分享里程碑时刻：凌晨3点收到Reddit私信，得知有用户真实购买了Pro订阅。虽无具体MRR数字，但记录了从0到第一个付费用户的心理历程，对处于早期验证阶段的独立开发者有激励和参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 20:12</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/1ruoadq/this_website_shows_every_mcdonalds_location_on/" target="_blank" rel="noopener" class="item-title">这个网站显示全球每家麦当劳的冰淇淋机是否在运作</a>
-      </div>
-      <p class="item-summary">经典的"无聊但病毒式传播"小工具案例——聚合全球麦当劳冰淇淋机故障数据并可视化展示。证明了垂直数据聚合+幽默切入点可以低成本获得大量自然流量，对独立开发者有"小工具撬动大曝光"的方法论参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/InternetIsBeautiful</span>
-        <span class="meta-time">03-16 04:09</span>
-        <span class="meta-stat">👍 79</span><span class="meta-stat">💬 24</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1rv82rk/i_spent_3_months_building_an_ai_that_practices/" target="_blank" rel="noopener" class="item-title">我花3个月做了一个AI对话练习工具，以下是我学到的</a>
-      </div>
-      <p class="item-summary">独立开发者因自己面试时"知道答案却说不出口"的经历，做了一款AI模拟对话练习工具，覆盖面试、演讲等高压场景。分享了3个月构建过程与经验，属于有真实需求驱动的创业案例，AI对话练习赛道值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 20:29</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/passive_income/comments/1ruyztd/i_saw_that_post_about_making_400700_with_ai/" target="_blank" rel="noopener" class="item-title">用AI生成网红图片卖给小品牌，月收入做到$3000</a>
-      </div>
-      <p class="item-summary">作者在Fiverr等平台为小品牌提供AI生成的虚拟网红图片服务，月收入$3000，是同类帖子中$400-700/月的数倍。验证了"AI视觉内容+品牌营销"这一服务方向的可行性，且存在明显的规模化空间，可考虑将其工具化/产品化。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/passive_income</span>
-        <span class="meta-time">03-16 11:45</span>
-        <span class="meta-stat">👍 94</span><span class="meta-stat">💬 27</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/passive_income/comments/1rv5ehr/hit_1kmonth_building_mobile_apps_on_the_side/" target="_blank" rel="noopener" class="item-title">一年上线14款健康追踪App，月收入突破$1000</a>
-      </div>
-      <p class="item-summary">开发者用约一年时间独立上线14款小型健康/习惯追踪App（戒酒、补剂、焦虑等细分方向），双端发布，月收入达$1000+。验证了"小而美的垂直健康工具"策略可行，批量复制同一套技术框架覆盖多个细分需求是其核心打法。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/passive_income</span>
-        <span class="meta-time">03-16 18:06</span>
-        <span class="meta-stat">👍 16</span><span class="meta-stat">💬 43</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.reddit.com/r/passive_income/comments/1rv5l4j/two_years_in_and_my_service_business_hit_800k_arr/" target="_blank" rel="noopener" class="item-title">两年从零做到$800K ARR：运营支持服务的真实成长路径</a>
-      </div>
-      <p class="item-summary">创始人无粉丝、无资金起步，为中小企业提供运营容量支持服务，两年内ARR达约$800K。核心是帮助小公司外包运营职能，属于"人+流程"型服务业务。对独立开发者的参考价值在于：将此类服务流程工具化，存在SaaS化机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/passive_income</span>
-        <span class="meta-time">03-16 18:16</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
   </section>
   <section class="signal-section" id="section-⚠️">
-    <h2 class="section-title">⚠️ 竞品空缺 <span class="section-count">1</span></h2>
+    <h2 class="section-title">⚠️ 竞品空缺 <span class="section-count">2</span></h2>
     
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">⚠️</span>
-        <a href="https://www.reddit.com/r/webdev/comments/1rud0fg/showoff_saturday_screen_recorder_with_smooth/" target="_blank" rel="noopener" class="item-title">免费屏幕录制工具（支持平滑光标，无水印，支持Windows）</a>
+        <a href="https://www.reddit.com/r/nocode/comments/1ruensh/the_hidden_cost_of_nocode_tools_is_switching_away/" target="_blank" rel="noopener" class="item-title">No-code工具的隐性成本：迁移出去才是噩梦</a>
       </div>
-      <p class="item-summary">Screen Studio价格昂贵且仅限Mac，开发者用Tauri+Rust+ffmpeg做了一个免费替代品，支持Windows。这是一个典型的"竞品太贵+平台缺口"驱动的工具项目，说明该赛道存在付费意愿但用户对现有方案不满，轻量平替有市场空间。</p>
+      <p class="item-summary">作者用no-code工具建产品多年，发现一旦超出工具上限或定价暴涨，迁移成本极高，数据和逻辑都被锁死。这是真实的市场缺口信号——帮助用户从no-code平台迁移到自建方案的工具/服务，或主打"数据可随时导出"的轻量SaaS，有差异化空间。</p>
       <div class="item-meta">
-        <span class="meta-source">r/webdev</span>
-        <span class="meta-time">03-15 20:39</span>
-        <span class="meta-stat">👍 16</span><span class="meta-stat">💬 4</span>
+        <span class="meta-source">r/nocode</span>
+        <span class="meta-time">03-15 21:55</span>
+        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 8</span>
+      </div>
+    </div>
+    <div class="news-item">
+      <div class="item-header">
+        <span class="signal-badge">⚠️</span>
+        <a href="https://www.reddit.com/r/macapps/comments/1ru332a/screenize_v040_is_now_available_reposted_with_new/" target="_blank" rel="noopener" class="item-title">Screenize v0.4.0：Screen Studio 的免费开源替代品</a>
+      </div>
+      <p class="item-summary">Screen Studio定价$89+，用户抱怨生成后不可二次编辑；Screenize以免费开源切入，主打"生成后可深度调整"差异点。Screen Studio付费用户基数大，若做出付费增强版或云端版，存在真实变现空间。</p>
+      <div class="item-meta">
+        <span class="meta-source">r/macapps</span>
+        <span class="meta-time">03-15 11:05</span>
+        <span class="meta-stat">👍 42</span><span class="meta-stat">💬 17</span>
       </div>
     </div>
   </section>
   <section class="signal-section" id="section-🔧">
-    <h2 class="section-title">🔧 工具缺口 <span class="section-count">8</span></h2>
+    <h2 class="section-title">🔧 工具缺口 <span class="section-count">3</span></h2>
     
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🔧</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1rv5sve/ga4_is_genuinely_terrible_for_saas_founders_and/" target="_blank" rel="noopener" class="item-title">GA4 对 SaaS 创始人来说真的很糟糕，但我们假装没事</a>
+        <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/1rv4ho3/i_built_a_document_toolkit_that_never_uploads/" target="_blank" rel="noopener" class="item-title">我做了一个文件处理工具包，文件从不上传到任何服务器</a>
       </div>
-      <p class="item-summary">作者直接批评 GA4 不适合 SaaS 创始人：收入追踪配置需要数小时、漏斗分析反人类、数据采样导致小体量数据失真。这是一个明确的工具缺口信号——SaaS 创始人需要一个开箱即用、专为收入/转化追踪设计的轻量分析工具，而不是 GA4 这种通用怪兽。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SaaS</span>
-        <span class="meta-time">03-16 18:29</span>
-        <span class="meta-stat">👍 16</span><span class="meta-stat">💬 12</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://www.reddit.com/r/SomebodyMakeThis/comments/1rtsopi/touch_to_key_mapper/" target="_blank" rel="noopener" class="item-title">触摸屏转键位映射工具——现有方案不支持多点触控和自定义网格</a>
-      </div>
-      <p class="item-summary">用户需要一个能拦截触摸输入、将其映射为自定义按键的工具，要求支持多点触控、滑动手势、可编辑的自定义网格（3x3/3x4等），同时不影响鼠标正常使用。现有工具无法满足这些组合需求，是一个小众但明确的工具缺口，适合做轻量桌面工具或浏览器插件。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SomebodyMakeThis</span>
-        <span class="meta-time">03-15 03:37</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/1rurrua/22_free_developer_tools_that_run_entirely_in_your/" target="_blank" rel="noopener" class="item-title">22个完全在浏览器中运行的免费开发者工具——无后端、无追踪</a>
-      </div>
-      <p class="item-summary">有人整理了22个纯前端运行的免费开发工具，无需后端、不追踪用户。这类"隐私优先+免费"的浏览器工具正在形成用户偏好，说明开发者对现有收费/追踪工具存在替代需求，是切入细分工具赛道的参考方向。</p>
+      <p class="item-summary">开发者发现主流PDF压缩/文件转换工具几乎都要上传文件到服务器，针对合同、身份证、发票等隐私文件存在安全隐患，于是做了纯本地处理的文档工具包。隐私优先是可持续差异化卖点，面向企业/法律/财务用户有付费潜力，但帖子未披露用户量或收入数据，需自行验证需求规模。</p>
       <div class="item-meta">
         <span class="meta-source">r/InternetIsBeautiful</span>
-        <span class="meta-time">03-16 06:23</span>
-        <span class="meta-stat">💬 1</span>
+        <span class="meta-time">03-16 17:10</span>
+        <span class="meta-stat">💬 11</span>
       </div>
     </div>
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🔧</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1rud9xn/canva_is_great_for_humans_its_terrible_for/" target="_blank" rel="noopener" class="item-title">Canva对人类用户很棒，但对自动化场景极其糟糕</a>
+        <a href="https://www.reddit.com/r/nocode/comments/1rud9xn/canva_is_great_for_humans_its_terrible_for/" target="_blank" rel="noopener" class="item-title">Canva 对自动化/程序化场景极其难用</a>
       </div>
-      <p class="item-summary">一位SaaS创始人抱怨Canva的API和自动化能力极差：批量生成图片、程序化修改模板、自动化出图流程都很难实现。Canva为手动操作设计，不为开发者服务。这是一个明确的工具缺口——面向需要批量/自动化图片生成的B端用户，存在可替代的设计自动化工具机会。</p>
+      <p class="item-summary">作者运营一个SaaS，需要批量生成设计图，Canva的API限制和自动化能力让人抓狂。大量评论共鸣，说明"程序化批量生成设计"是真实痛点——Canva不做这个，独立开发者有机会做一个面向开发者/营销人的自动化图片生成工具。</p>
       <div class="item-meta">
         <span class="meta-source">r/nocode</span>
         <span class="meta-time">03-15 20:52</span>
@@ -872,157 +284,37 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🔧</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1ruyy76/source_code_preview_quick_look_source_code_files/" target="_blank" rel="noopener" class="item-title">Source Code Preview —— macOS Finder 中的代码语法高亮快速预览插件</a>
+        <a href="https://www.reddit.com/r/webdev/comments/1rv5v39/is_setting_up_saas_payments_still_painful_in_2026/" target="_blank" rel="noopener" class="item-title">2026年了，SaaS支付集成还是这么痛苦吗？</a>
       </div>
-      <p class="item-summary">开发者指出Finder中源码文件无语法高亮、字体极小；付费替代品Peek已3年未更新，免费方案Syntax Highlight选项过多太复杂。该开发者发布了轻量替代工具Source Code Preview，填补这一macOS开发者工具缺口，属于典型的"现有工具烂/停更"机会。</p>
+      <p class="item-summary">开发者抱怨搭建完整SaaS支付体系（订阅、用量计费、Webhook、客户门户、税务）仍然繁琐耗时，Stripe配置复杂度远超预期。这是独立开发者高频痛点，已有多人响应，做一个"一键接入"支付配置层工具或模板存在真实需求。</p>
       <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-16 11:43</span>
-        <span class="meta-stat">👍 6</span><span class="meta-stat">💬 11</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1rtrje0/i_was_in_need_of_a_volume_mixer_app_so_i_tested/" target="_blank" rel="noopener" class="item-title">SoundSource CPU占用远高于免费替代品，用户质疑其性价比</a>
-      </div>
-      <p class="item-summary">用户测试发现macOS音量混音器SoundSource的CPU占用（3-7%）显著高于功能相同的免费替代品，对于需要24/7后台运行的工具来说体验较差。说明该品类存在"轻量+低资源占用"的产品机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 02:52</span>
-        <span class="meta-stat">👍 46</span><span class="meta-stat">💬 15</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://www.datacia.app/" target="_blank" rel="noopener" class="item-title">Show HN: DataCia – 让你专注于数据本身的数据库客户端</a>
-      </div>
-      <p class="item-summary">主打"专注/简洁"的数据库客户端工具，暗示现有工具（如TablePlus、DBeaver）功能过于复杂或界面干扰多。数据库GUI客户端是独立开发者可做的成熟赛道，差异化切入点是极简体验或特定数据库深度支持。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·Show HN</span>
-        <span class="meta-time">03-16 19:41</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://www.high-snr.com/" target="_blank" rel="noopener" class="item-title">Show HN: HighSNR – 压缩LLM上下文中的冗余与噪声</a>
-      </div>
-      <p class="item-summary">针对LLM上下文窗口利用率的工具，帮助用户剔除无效内容、提升信噪比。随着AI应用开发者对token成本敏感度上升，上下文压缩/优化工具有真实需求，可作为SDK或API形式变现。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·Show HN</span>
-        <span class="meta-time">03-16 19:40</span>
-        <span class="meta-stat">👍 2</span>
+        <span class="meta-source">r/webdev</span>
+        <span class="meta-time">03-16 18:33</span>
+        <span class="meta-stat">💬 6</span>
       </div>
     </div>
   </section>
   <section class="signal-section" id="section-🌱">
-    <h2 class="section-title">🌱 早期项目 <span class="section-count">64</span></h2>
+    <h2 class="section-title">🌱 早期项目 <span class="section-count">9</span></h2>
     
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1ruiyvd/i_wanted_to_see_if_i_could_build_a_flight_sim_in/" target="_blank" rel="noopener" class="item-title">用Google Maps 3D地图在浏览器里做了一个真实场景飞行模拟器</a>
+        <a href="https://www.reddit.com/r/SideProject/comments/1rv3sng/i_got_banned_from_rgarmin_mass_ignored_on_product/" target="_blank" rel="noopener" class="item-title">被Garmin社区封禁、被Product Hunt无视，却赚到了人生第一个$20</a>
       </div>
-      <p class="item-summary">开发者Fernando独立构建了WorldFlightSim，基于Google Maps Photorealistic 3D Tiles，完全在浏览器中运行，无需安装。技术验证型项目，目前处于Beta阶段。对想探索地图API+WebGL方向产品的开发者有参考价值。</p>
+      <p class="item-summary">开发者把"跑完步复制数据问ChatGPT"的重复动作做成了Strava AI分析应用，首日被封号但仍成交$20。切入跑步爱好者的数据分析痛点，用户自己就是目标用户，冷启动路径清晰可复制。</p>
       <div class="item-meta">
         <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 00:47</span>
-        <span class="meta-stat">👍 928</span><span class="meta-stat">💬 110</span>
+        <span class="meta-time">03-16 16:26</span>
+        <span class="meta-stat">👍 6</span><span class="meta-stat">💬 15</span>
       </div>
     </div>
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv3ix2/day_1_launch_results/" target="_blank" rel="noopener" class="item-title">AI聊天平台用"时间通行证"替代订阅制，Day 1上线结果分享</a>
+        <a href="https://www.reddit.com/r/EntrepreneurRideAlong/comments/1rv4ztk/built_a_legal_rights_game_where_you_argue_against/" target="_blank" rel="noopener" class="item-title">做了个法律权益对抗AI的浏览器游戏，数千玩家，Reddit反馈积极</a>
       </div>
-      <p class="item-summary">开发者上线AxolGPT，基于OpenAI模型（含GPT-5.2、GPT-image-1.5），用"按时间计费通行证"代替月订阅，尝试差异化定价模式。首日在Reddit推广并诚实分享数据。定价模式本身是一个值得关注的创新信号，适合AI工具类独立开发者参考。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 16:09</span>
-        <span class="meta-stat">👍 10</span><span class="meta-stat">💬 22</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv0h00/i_built_a_website_to_transform_youtube_tutorial/" target="_blank" rel="noopener" class="item-title">把YouTube教程播放列表转化为结构化课程的学习工具</a>
-      </div>
-      <p class="item-summary">开发者厌倦了YouTube播放列表学习体验混乱的问题，构建了一个工具：粘贴播放列表链接，自动生成结构化课程，支持进度追踪。切入"YouTube内容再结构化"这一真实痛点，目标用户是自学者，轻量SaaS方向，值得关注其后续变现路径。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 13:03</span>
-        <span class="meta-stat">👍 11</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv3pqs/built_a_cli_that_can_actually_buy_stuff_online/" target="_blank" rel="noopener" class="item-title">在命令行里搜索商品、比价、下单的CLI购物工具，面向人类和AI Agent</a>
-      </div>
-      <p class="item-summary">开发者构建了Clishop，一个终端购物工具，支持搜索、比价和下单，同时兼容AI Agent调用，内置风控护栏。目前寻找早期测试用户。定位在"AI Agent + 电商操作"交叉点，是一个值得观察的早期基础设施型工具。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 16:20</span>
-        <span class="meta-stat">👍 5</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv87ld/i_kept_checking_8_different_eu_seedbanks_for_the/" target="_blank" rel="noopener" class="item-title">因为频繁对比多家EU大麻种子银行价格，自己做了一个免费比价引擎</a>
-      </div>
-      <p class="item-summary">开发者因反复在多个EU大麻种子银行（craft breeders）之间比价而烦透，构建了seedsearch.eu，聚合多家平台的品种价格与库存信息。垂直比价引擎的经典独立开发者路径：自己是用户、需求真实、数据可爬取。细分市场但用户粘性强。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 20:35</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv5i1q/looking_for_feedback_on_my_ai_clipboard_app_idea/" target="_blank" rel="noopener" class="item-title">寻求反馈：我正在做一个AI剪贴板应用</a>
-      </div>
-      <p class="item-summary">开发者正在构建一款macOS/Windows AI剪贴板工具，解决"复制了大量链接/代码/笔记后难以检索"的痛点。现有剪贴板历史工具在内容量大时搜索体验差，该项目尝试用AI增强检索能力。处于早期验证阶段，正在征集反馈。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 18:11</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv3pmz/i_built_a_voicefirst_research_tool_that_searches/" target="_blank" rel="noopener" class="item-title">我做了一个语音优先的学术研究工具，可同时搜索8个学术数据库</a>
-      </div>
-      <p class="item-summary">独立开发者上线Research Sentry，支持语音/文字同时检索ArXiv、PubMed、Google Scholar等8个学术数据库，用AI Web Agent聚合结果。面向研究人员的一站式学术搜索工具，解决多平台切换的效率痛点，可参考其多源聚合+AI代理的产品思路。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 16:20</span>
-        <span class="meta-stat">👍 4</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SideProject/comments/1rv5v8d/i_built_a_scifi_focus_timer_where_your_deep_work/" target="_blank" rel="noopener" class="item-title">我做了一个科幻风专注计时器，深度工作时间会构建并守护你的星系</a>
-      </div>
-      <p class="item-summary">独立开发者上线Nebula，将番茄钟与科幻游戏化机制结合——专注时长转化为星系扩张，并需抵御轨道威胁。针对传统计时器"太静态、缺乏持续动力"的痛点设计。面向喜欢科幻+简洁UI的用户群体，是游戏化生产力工具的差异化尝试。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SideProject</span>
-        <span class="meta-time">03-16 18:33</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/EntrepreneurRideAlong/comments/1rv4ztk/built_a_legal_rights_game_where_you_argue_against/" target="_blank" rel="noopener" class="item-title">我做了一个法律权益游戏，让玩家对抗AI系统——已有数千玩家，Reddit反馈不错</a>
-      </div>
-      <p class="item-summary">开发者做了一款浏览器游戏Fix AI，玩家扮演消费者对抗企业AI决策（航班取消、银行封卡等），通过引用正确法律条文来赢得胜利。已积累数千玩家并获得Reddit正向反馈，作者在正式推进前寻求外部意见。游戏化+法律教育+AI对抗的组合方向有一定新意。</p>
+      <p class="item-summary">开发者做了一款浏览器游戏，玩家扮演消费者用真实法律条文对抗企业AI决策（航班取消、银行封卡等场景），已积累数千玩家。教育性游戏化工具是低竞争细分赛道，1人可做，但目前无收入数据，商业化路径待验证。</p>
       <div class="item-meta">
         <span class="meta-source">r/EntrepreneurRideAlong</span>
         <span class="meta-time">03-16 17:41</span>
@@ -1032,69 +324,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/EntrepreneurRideAlong/comments/1rv7aw8/i_built_nonverbia_because_i_watched_our_best/" target="_blank" rel="noopener" class="item-title">我做了Nonverbia——因为发现顶级销售在视频通话里全废了，却找不到任何工具解决这个问题</a>
+        <a href="https://www.reddit.com/r/microsaas/comments/1rv3302/i_built_a_browser_game_where_you_argue_with/" target="_blank" rel="noopener" class="item-title">我做了个浏览器游戏，让你用真实消费者法律和企业AI对骂</a>
       </div>
-      <p class="item-summary">创始人有7年企业销售经验，疫情后线下拜访转为视频会议，发现销售人员失去了读懂肢体语言的能力，现有工具无法解决。由此开发Nonverbia，专注于视频销售场景下的非语言信号分析与辅助。切入点来自真实业务痛点，B2B销售培训/辅助工具方向值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/EntrepreneurRideAlong</span>
-        <span class="meta-time">03-16 19:52</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/EntrepreneurRideAlong/comments/1rv6klg/built_a_newsletter_in_silence_for_months/" target="_blank" rel="noopener" class="item-title">我默默做了几个月的Newsletter，陌生人开始主动订阅了——把专利文件翻译成商业情报</a>
-      </div>
-      <p class="item-summary">作者将公开专利文件解析为通俗商业洞察，以Newsletter形式分发。灵感来自VC圈"专利是最被低估的公开数据源"的观点。目前已有陌生人自然订阅，处于早期冷启动阶段。专利情报+内容订阅的组合，对独立开发者而言可延伸为付费数据工具或行业监测SaaS。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/EntrepreneurRideAlong</span>
-        <span class="meta-time">03-16 19:13</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/EntrepreneurRideAlong/comments/1runb7w/launched_our_first_competition_on_a_marketplace/" target="_blank" rel="noopener" class="item-title">我们搭建的视频编辑器市场平台——首次竞赛活动3天获100个注册用户</a>
-      </div>
-      <p class="item-summary">团队构建了一个连接品牌方与视频编辑的双边市场平台，解决品牌找不到风格匹配编辑、编辑缺乏曝光渠道的痛点。通过举办竞赛活动冷启动，3天内获得100个注册用户。双边市场+创意竞赛的冷启动方式有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/EntrepreneurRideAlong</span>
-        <span class="meta-time">03-16 03:31</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/startups/comments/1run0bx/hot_take_most_startup_interviews_are_a_waste_of/" target="_blank" rel="noopener" class="item-title">用AI替代初轮面试：在Voice AI黑客松3小时内做出原型</a>
-      </div>
-      <p class="item-summary">开发者在Voice AI黑客松中3小时构建了AI面试原型：创始人描述职位→AI生成问题→候选人与AI对话→输出结构化评估报告。核心观点是初轮面试是创始人时间黑洞，AI可以标准化替代。属于HR/招聘SaaS工具的早期信号，1人可实现的方向。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startups</span>
-        <span class="meta-time">03-16 03:20</span>
-        <span class="meta-stat">💬 44</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/indiehackers/comments/1ruo4da/18_no_funding_launching_in_4_days_and_i_have_no/" target="_blank" rel="noopener" class="item-title">18岁、零融资、4天后上线，我完全不知道自己在干什么</a>
-      </div>
-      <p class="item-summary">两名印度工科生，无资金无人脉，用6个月解决自己在Vibecoding过程中遇到的真实痛点，即将上线产品。帖子真实记录了早期独立开发者的心态与处境，产品方向与AI辅助编程工具链相关，具有一定参考和关注价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/indiehackers</span>
-        <span class="meta-time">03-16 04:02</span>
-        <span class="meta-stat">👍 35</span><span class="meta-stat">💬 108</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv3302/i_built_a_browser_game_where_you_argue_with/" target="_blank" rel="noopener" class="item-title">我做了一个浏览器游戏，让你用真实消费者法律和企业AI对线</a>
-      </div>
-      <p class="item-summary">产品Fix AI（fixai.dev）：模拟消费者维权场景（保险拒赔、银行卡被封、航班取消），玩家扮演消费者与企业AI对抗。创意切入点独特——将法律维权练习游戏化。设计+开发一人可搞定，属于有趣的工具型小产品，可观察用户反馈和留存数据。</p>
+      <p class="item-summary">开发者做了个角色扮演游戏fixai.dev，玩家扮演消费者对抗拒绝理赔/封卡/取消航班的企业AI，练习真实维权话术。创意切入点独特，游戏化+法律教育+消费者痛点三合一，1人可复制的低成本产品形态，值得观察用户留存和变现路径。</p>
       <div class="item-meta">
         <span class="meta-source">r/microsaas</span>
         <span class="meta-time">03-16 15:40</span>
@@ -1104,21 +336,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv4bl6/built_an_ai_inspo_workspace_mcp_for_designers/" target="_blank" rel="noopener" class="item-title">为设计师和开发者构建的AI灵感工作区MCP工具——征求反馈</a>
+        <a href="https://www.reddit.com/r/microsaas/comments/1rv8aek/i_built_a_micro_saas_because_i_realized_most/" target="_blank" rel="noopener" class="item-title">我做了个micro SaaS，专门解决用户取消订阅却不知道原因的问题</a>
       </div>
-      <p class="item-summary">开发者将Inspo AI接入MCP协议，让用户可在Claude等AI工作流中直接调取UI灵感图、情绪板和内容创意，无需切换工具。面向设计师+独立开发者群体，刚上线寻求早期反馈，有演示和文档。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 17:00</span>
-        <span class="meta-stat">👍 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv8aek/i_built_a_micro_saas_because_i_realized_most/" target="_blank" rel="noopener" class="item-title">我做了一个Micro SaaS，帮助独立创始人搞清楚用户为什么取消订阅</a>
-      </div>
-      <p class="item-summary">开发者发现Stripe取消订阅只返回webhook和时间戳，完全不告知原因（是定价？功能缺失？竞品？Bug？），于是构建了一个专门收集取消原因的Micro SaaS工具，正在寻求早期反馈。切中SaaS流失分析的真实痛点。</p>
+      <p class="item-summary">Stripe取消订阅只给webhook和时间戳，完全不告诉你用户为何离开——这是SaaS普遍痛点。开发者针对此构建了取消原因收集分析工具，正在寻求早期反馈，切入点精准，目标用户（SaaS独立开发者）明确，可复制方向。</p>
       <div class="item-meta">
         <span class="meta-source">r/microsaas</span>
         <span class="meta-time">03-16 20:39</span>
@@ -1128,81 +348,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv87hj/read_newsletters_rss_feed_in_one_place/" target="_blank" rel="noopener" class="item-title">在一个地方阅读Newsletter和RSS订阅</a>
+        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv6bvq/i_built_a_live_pulse_of_the_worlds_conversations/" target="_blank" rel="noopener" class="item-title">我做了一个实时显示全球Reddit热点话题的地图工具，但不知道怎么推广</a>
       </div>
-      <p class="item-summary">开发者上线了一款聚合阅读工具：提供专属邮箱地址用于订阅Newsletter（不污染主邮箱），同时支持RSS源，所有内容统一在一个App内阅读。功能定位清晰，是Newsletter+RSS聚合赛道的早期产品。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 20:35</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv85no/built_a_git_for_dns_domain_portfolio_manager/" target="_blank" rel="noopener" class="item-title">我做了一个"DNS版Git" + 域名组合管理工具，求真实反馈</a>
-      </div>
-      <p class="item-summary">开发者构建了一款Micro SaaS：像管理代码一样管理DNS和域名，支持DNS变更历史记录、一键回滚、多域名统一管理、续费提醒。面向有多个域名的独立开发者/小团队，正在寻求早期用户反馈。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 20:33</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv856u/i_built_vyay_after_logging_expenses_in_google/" target="_blank" rel="noopener" class="item-title">我用了8年Google Sheet记账后，自己做了一个记账App</a>
-      </div>
-      <p class="item-summary">开发者因长期用Google Sheet手动记账（2018年至今），深度理解个人记账痛点，最终自己开发了记账工具vyay。典型的"自己就是目标用户"路径，产品从真实需求出发，有一定用户共鸣基础。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 20:32</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv84jo/startup_founders_list_your_app_where_google_ai/" target="_blank" rel="noopener" class="item-title">创业者：把你的App提交到Google、AI聊天机器人和TikTok用户都会搜索的地方</a>
-      </div>
-      <p class="item-summary">开发者构建了一个工具收录平台，声称可提升产品在搜索引擎、AI推荐（如ChatGPT）和TikTok的曝光度，专门解决独立开发者"产品上线后流量消失"的分发难题。属于早期工具目录/分发平台类产品。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 20:31</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1rv6txm/i_built_a_dynamic_qr_code_generator_but_without/" target="_blank" rel="noopener" class="item-title">我做了一个动态二维码生成器，没有订阅陷阱</a>
-      </div>
-      <p class="item-summary">作者针对现有二维码工具"生成后锁定订阅、停订二维码失效"的痛点，做了一个无订阅陷阱的动态二维码工具。目标用户是把二维码印在菜单/包装/海报上的中小商家。这是一个已有明确用户抱怨、竞品定价策略引发反感的细分工具市场。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SaaS</span>
-        <span class="meta-time">03-16 19:27</span>
-        <span class="meta-stat">👍 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1rv50n4/built_my_first_saas_recently_and_im_realizing/" target="_blank" rel="noopener" class="item-title">我最近做了第一个 SaaS，才意识到开发只是最简单的部分</a>
-      </div>
-      <p class="item-summary">作者上线了目标拆解工具 Milerock（大目标→里程碑→每日任务），面向需要外部结构感的用户。产品已上线，作者正面临冷启动难题。对同类"生产力/目标管理"赛道的独立开发者有参考价值，也印证了"做出来≠有用户"的普遍困境。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SaaS</span>
-        <span class="meta-time">03-16 17:43</span>
-        <span class="meta-stat">👍 5</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv6bvq/i_built_a_live_pulse_of_the_worlds_conversations/" target="_blank" rel="noopener" class="item-title">我做了一个全球实时话题热力图，但完全不知道怎么推广</a>
-      </div>
-      <p class="item-summary">开发者上线了一个交互式Web应用，将Reddit全球各地的实时热门话题可视化在地图上，可按国家/城市查看当地正在讨论什么。产品已上线（reddit-world-map.vercel.app），但作者在增长策略和功能方向上求助，适合参考其技术实现或探索合作。</p>
+      <p class="item-summary">独立开发者上线了一个交互式Web应用，按国家/城市可视化Reddit实时热点话题，产品已可访问（reddit-world-map.vercel.app）。产品本身有差异化切入点，作者公开求增长建议，可直接参考其产品形态和冷启动困境。</p>
       <div class="item-meta">
         <span class="meta-source">r/buildinpublic</span>
         <span class="meta-time">03-16 19:00</span>
@@ -1212,273 +360,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv8ex1/getting_new_users_from_many_places/" target="_blank" rel="noopener" class="item-title">从多个渠道获取新用户（早期项目进展分享）</a>
+        <a href="https://www.reddit.com/r/webdev/comments/1ru6f1o/showoff_saturday_found_a_bunch_of_companies_using/" target="_blank" rel="noopener" class="item-title">摄影师发现15家公司盗用照片，自建追偿工具并免费开放</a>
       </div>
-      <p class="item-summary">独立开发者分享其应用正从开发阶段转向市场推广，已覆盖印度13个城市及海外用户。摘要原文被截断，用户数量未披露。可作为早期冷启动增长路径的参考案例，但信息不完整。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 20:44</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv8ait/now_discover_friends_on_youtube_see_the_profile/" target="_blank" rel="noopener" class="item-title">在YouTube上发现朋友——查看好友最近观看视频的头像</a>
-      </div>
-      <p class="item-summary">开发者构建了一个Web应用+Chrome扩展，允许用户互相查看YouTube观看历史（需在视频页停留7秒才记录）。社交+内容发现的小众切入点，适合设计师开发者验证社交工具方向，目前处于早期上线阶段，无收入数据。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 20:39</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv7zsh/day_2_of_30_apps_in_30_days_built_a_chrome/" target="_blank" rel="noopener" class="item-title">30天30个应用第2天——为Upwork自由职业者构建AI提案助手Chrome扩展</a>
-      </div>
-      <p class="item-summary">开发者在"30天30应用"挑战中构建了一个Chrome扩展，帮助Upwork自由职业者快速评估工作是否值得投标、并生成更好的提案。切中自由职业者"connects消耗成本高、提案耗时长"的真实痛点，是可快速验证的轻量工具方向。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 20:25</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv7vfp/i_was_frustrated_with_how_bad_most_resumes_are_so/" target="_blank" rel="noopener" class="item-title">我对糟糕简历感到沮丧，于是构建了一个AI简历优化工具</a>
-      </div>
-      <p class="item-summary">独立开发者针对"招聘者只看简历6-7秒"的痛点，构建了AI简历分析工具，功能包括重写要点、优化结构、增加量化成果。简历优化赛道竞争激烈，但作为个人项目验证方向可行，无收入数据披露。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 20:19</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/SomebodyMakeThis/comments/1rtw7i7/brick_an_app_that_lets_you_visualize_your_growth/" target="_blank" rel="noopener" class="item-title">「Brick」——把你的成长旅程可视化为一栋楼，砖块一块块地堆起来</a>
-      </div>
-      <p class="item-summary">开发者做了一款将个人成长历程可视化为"建筑"的App，用户每完成一步就添加一块砖，同时可以看到成功人士的"建筑"是怎么盖起来的。切入点是：人们消费大量成功学内容却看不见自己的进展轨迹。产品刚上线，有合作或竞品参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SomebodyMakeThis</span>
-        <span class="meta-time">03-15 05:58</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1rv2y6x/idea_generator_for_side_projects_based_on_the/" target="_blank" rel="noopener" class="item-title">基于你刚学会的技能，自动生成练手项目创意的小工具</a>
-      </div>
-      <p class="item-summary">开发者在做一个工具，输入"已学技能 + 目标岗位 + 可用时间 + 兴趣方向"，输出匹配的练手项目创意，解决学完教程不知道做什么的经典痛点。产品处于实验阶段，面向开发者学习社区，需求真实且高频，适合做成免费引流工具或付费课程配套产品。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-16 15:32</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1rupvjn/im_building_an_app_that_holds_your_social_media/" target="_blank" rel="noopener" class="item-title">用解谜游戏"劫持"社交媒体的专注力App</a>
-      </div>
-      <p class="item-summary">开发者自己深受无脑刷屏困扰，发现传统App拦截器太容易绕过，于是做了一个必须解完逻辑/数学题才能解锁Instagram/TikTok的工具。思路有趣，属于"摩擦成本戒断法"，差异化明显。目前处于早期，在征求反馈。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-16 05:08</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 7</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1ruek25/what_do_you_think_if_you_have_the_possibility_to/" target="_blank" rel="noopener" class="item-title">全本地化会议转录+实时AI摘要/翻译移动App</a>
-      </div>
-      <p class="item-summary">开发者正在做一款会议录音App，所有模型跑在设备端，不上传云端，实时生成文字转录、AI摘要和翻译。主打隐私保护。技术已成熟，作者在验证产品方向。对比Otter.ai等云端方案，隐私敏感用户（企业/法律/医疗）是明确细分市场。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-15 21:51</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1ruidq7/im_developing_an_antiai_app/" target="_blank" rel="noopener" class="item-title">反AI图像保护App：防止图片被AI训练+检测AI生成图</a>
-      </div>
-      <p class="item-summary">开发者在做两个功能：①用不可见算法扰动图片（类似Glaze/Nightshade思路），防止被AI模型训练；②检测图片是否为AI生成并读取元数据。面向创作者隐私保护需求，市场关注度持续升温，现有工具多为桌面端，移动端+一体化方案存在空缺。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-16 00:23</span>
-        <span class="meta-stat">👍 1</span><span class="meta-stat">💬 8</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1rtk7hb/feedback_i_actually_built_this_an_app_that_scans/" target="_blank" rel="noopener" class="item-title">我真的做出来了——一个从照片扫描姿势并告诉你问题所在的App</a>
-      </div>
-      <p class="item-summary">开发者将姿势分析想法落地成产品：用户上传侧面照片，AI识别具体姿势问题并给出针对性练习方案，而非泛泛建议。健康+AI+个性化方案的结合，属于可独立开发的垂直工具，求反馈阶段，有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-14 22:01</span>
-        <span class="meta-stat">👍 5</span><span class="meta-stat">💬 9</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/AppIdeas/comments/1rtiwrz/feedback_a_stoic_widget_that_focuses_on_practice/" target="_blank" rel="noopener" class="item-title">专注实践而非被动阅读的斯多葛主义Widget</a>
-      </div>
-      <p class="item-summary">iOS开发者认为现有斯多葛类App只是随机展示名言、流于形式，于是做了Stoic Widget，主打可操作的哲学练习工具而非电子书。细分心理健康/冥想赛道，差异化切入点清晰，正在求反馈。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/AppIdeas</span>
-        <span class="meta-time">03-14 21:03</span>
-        <span class="meta-stat">👍 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/startupideas/comments/1rv407t/free_ai_tool_for_startup_hr_writes_onboarding/" target="_blank" rel="noopener" class="item-title">早期创业公司免费AI HR工具——写入职计划、预测离职风险，因买不起HR软件而自建</a>
-      </div>
-      <p class="item-summary">开发者因早期买不起HR软件，自建了HireSignal，提供7个免费AI HR工具：30天角色定制入职计划、离职风险评分(0-100)、知识留存报告等。面向早期创业公司的HR痛点，当前免费开放，正在积累用户。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startupideas</span>
-        <span class="meta-time">03-16 16:39</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/startupideas/comments/1rv1k8k/how_startups_get_featured_in_forbes_techcrunch/" target="_blank" rel="noopener" class="item-title">不雇PR公司也能登上Forbes/TechCrunch/BBC——创业公司媒体资源对接工具</a>
-      </div>
-      <p class="item-summary">ContactJournalists.com正在Beta阶段，帮助创业公司直接联系记者获得媒体报道，当前用优惠码BETABUDDY可免费使用三个月。定位PR自助化工具，切中独立开发者/小团队无预算做PR的痛点。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startupideas</span>
-        <span class="meta-time">03-16 14:06</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/startupideas/comments/1ruxftu/a_competitive_game_for_code_comprehension_think/" target="_blank" rel="noopener" class="item-title">代码理解竞技游戏——像chess.com一样，但练的是读懂代码</a>
-      </div>
-      <p class="item-summary">开发者指出AI时代出现"能生成代码但看不懂代码"的新问题，构建了Decoder：专注代码理解能力训练的竞技游戏，含Elo排名、1v1对战等机制。切入Vibe Coding时代的真实技能缺口，产品已上线，定位新颖。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startupideas</span>
-        <span class="meta-time">03-16 10:30</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/startupideas/comments/1ruos8p/what_if_notifications_were_read_out_in_your_moms/" target="_blank" rel="noopener" class="item-title">用联系人真实声音朗读通知的Android应用——EchoMe</a>
-      </div>
-      <p class="item-summary">开发者正在构建一款Android应用，通过声音克隆技术，用联系人的真实声音（而非TTS机器人）朗读WhatsApp等通知。产品处于早期阶段，切入点是"情感化通知体验"，技术可行性依赖语音克隆API。对有设计+AI能力的独立开发者有参考价值，但需关注隐私合规风险。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startupideas</span>
-        <span class="meta-time">03-16 04:27</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/1rv1eei/whats_my_color_precision_score_find_out_how_small/" target="_blank" rel="noopener" class="item-title">免费色彩精度测试工具——你能分辨多小的色差？</a>
-      </div>
-      <p class="item-summary">一个面向设计师/创意人群的免费科学色觉测试工具，测试用户能识别的最小色差。定位精准（设计师刚需自测工具），获客成本低，可作为引流产品延伸至付费色彩相关SaaS或设计工具。内容无收入数据披露。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/InternetIsBeautiful</span>
-        <span class="meta-time">03-16 13:57</span>
-        <span class="meta-stat">👍 144</span><span class="meta-stat">💬 80</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/1rv3uqd/passworddog_i_made_a_password_generator_where_a/" target="_blank" rel="noopener" class="item-title">Password.dog：用狗狗行为可视化密码强度的趣味密码生成器</a>
-      </div>
-      <p class="item-summary">开发者为帮助老年亲属理解密码安全，做了一个密码生成器：输入弱密码狗狗会"尿在上面"，生成强密码则狗狗会"叫出来"。用趣味视觉反馈降低安全教育门槛，是一个有传播性的小工具，适合作为引流/品牌产品。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/InternetIsBeautiful</span>
-        <span class="meta-time">03-16 16:30</span>
-        <span class="meta-stat">👍 4</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/1ruvx3k/i_built_an_ios_app_to_track_job_applications_and/" target="_blank" rel="noopener" class="item-title">我做了一个iOS求职追踪应用 JobSnail</a>
-      </div>
-      <p class="item-summary">独立开发者将原有macOS求职追踪应用JobSnail移植到iOS，功能包括申请记录、面试状态追踪等。属于求职管理细分赛道的早期产品，验证了跨平台迁移路径，可参考其从桌面端到移动端的产品扩展策略。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/InternetIsBeautiful</span>
-        <span class="meta-time">03-16 09:21</span>
-        <span class="meta-stat">👍 1</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/1rua96k/radarblush_a_free_realtime_dashboard_for_anime/" target="_blank" rel="noopener" class="item-title">radar-blush：免费的动漫/韩剧/漫画实时追踪仪表盘，无需注册</a>
-      </div>
-      <p class="item-summary">开发者因厌倦用10个不同App追踪番剧和韩剧播出，自建了RADAR——集实时播出表、倒计时、个人追剧列表、预告片于一体的免费仪表盘，无需账号。切入二次元/韩流内容追踪工具细分市场，用户需求真实存在。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/InternetIsBeautiful</span>
-        <span class="meta-time">03-15 18:03</span>
-        <span class="meta-stat">👍 9</span><span class="meta-stat">💬 4</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/1rum5xo/i_built_a_online_urdu_typing_tool_with_a_learning/" target="_blank" rel="noopener" class="item-title">我做了一个在线乌尔都语输入工具，作为InPage的无广告替代品</a>
-      </div>
-      <p class="item-summary">开发者上线了UrduWriting.com，提供无广告、无强制注册的乌尔都语在线书写与学习平台，直接对标付费桌面软件InPage。切入小语种+无广告+免注册的组合定位，是典型的"现有方案体验差、用户有刚需"的细分市场机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/InternetIsBeautiful</span>
-        <span class="meta-time">03-16 02:48</span>
-        <span class="meta-stat">💬 4</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1rv4dl2/can_a_cellbased_approach_work_for_nocode/" target="_blank" rel="noopener" class="item-title">基于"单元格"思路的无代码自动化工具MetaCells，寻求反馈</a>
-      </div>
-      <p class="item-summary">开发者开源了MetaCells，用"cell-based"模型重新设计无代码自动化流程，项目已上线（metacells.dev），正在寻求no-code/low-code社区反馈。属于早期开源项目，有合作或参考价值，可观察其差异化定位能否在Zapier/Make主导的市场中找到立足点。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 17:03</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 6</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1ruq68k/built_an_open_source_desktop_app_aimed_at/" target="_blank" rel="noopener" class="item-title">开源桌面应用：专为AI Agent工作流设计的多任务管理器</a>
-      </div>
-      <p class="item-summary">开发者用Claude Code构建了一个开源桌面工具，封装了OpenCode和Claude Code SDK，支持worktree隔离、git diff、脚本运行等功能，专为同时跑多个AI Agent提升并行效率而设计。项目刚上线，有合作和参考价值，方向对准AI编程提效工具市场。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 05:20</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/webdev/comments/1ru6f1o/showoff_saturday_found_a_bunch_of_companies_using/" target="_blank" rel="noopener" class="item-title">【展示周六】发现大量公司盗用我的照片，于是自己做了追踪工具，现免费开放</a>
-      </div>
-      <p class="item-summary">摄影师发现15+家公司未经授权使用其照片，于是自建了一个图片侵权追踪工具，并免费分享。这既是一个真实需求验证的早期项目案例，也指向"版权图片侵权检测"这一细分工具市场——目前付费方案对个人创作者门槛较高。</p>
+      <p class="item-summary">作者用Google反向图片搜索发现15家公司未授权使用其照片，于是自建了一个自动追踪图片盗用并发起索赔的工具，现免费分享。图片版权执法是摄影师/创作者长期痛点，此工具若加入付费追偿功能（按成功索赔抽成）有明显变现空间。</p>
       <div class="item-meta">
         <span class="meta-source">r/webdev</span>
         <span class="meta-time">03-15 14:03</span>
@@ -1488,9 +372,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1rui9bk/a_notes_app_for_quick_thoughts_and_links/" target="_blank" rel="noopener" class="item-title">为"随手记"场景打造的轻量笔记应用 Prism</a>
+        <a href="https://www.reddit.com/r/macapps/comments/1rui9bk/a_notes_app_for_quick_thoughts_and_links/" target="_blank" rel="noopener" class="item-title">我做了一个"轻量快记"笔记应用 Prism，填补 Obsidian 和文本消息之间的空白</a>
       </div>
-      <p class="item-summary">开发者发现自己用短信给自己发随手想法，Obsidian/Apple Notes太重，于是5个月前独立开发了Prism，定位"快速想法和链接"这一介于正式笔记与聊天之间的细分场景。属于早期上线项目，无收入数据披露，但切入点清晰，有参考价值。</p>
+      <p class="item-summary">开发者发现自己用短信给自己发零碎想法，因为 Obsidian/Apple Notes 太重，于是5个月前做了 Prism 专门处理"快速笔记"这一细分场景。这个需求真实存在且被大工具忽视，值得参考其切入角度。</p>
       <div class="item-meta">
         <span class="meta-source">r/macapps</span>
         <span class="meta-time">03-16 00:19</span>
@@ -1500,45 +384,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1rued8z/os_lapsus_20_add_momentum_to_the_cursor_on_macos/" target="_blank" rel="noopener" class="item-title">Lapsus 2.0 —— 为 macOS 光标添加惯性动效的工具</a>
+        <a href="https://www.reddit.com/r/macapps/comments/1ruh77j/devglow_run_all_your_dev_servers_from_the_menu/" target="_blank" rel="noopener" class="item-title">devglow —— 从菜单栏管理所有开发服务器，内置MCP支持</a>
       </div>
-      <p class="item-summary">独立开发者发布Lapsus 2.0，为macOS内置触控板/鼠标光标添加物理惯性效果，自称是macOS上唯一实现此功能的应用。原本为趣味项目，后发现对手部灵活性受限用户有实际帮助。属于极细分的macOS工具，竞品空白，有无障碍辅助潜力。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 21:42</span>
-        <span class="meta-stat">👍 77</span><span class="meta-stat">💬 80</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1rv1ar0/os_built_this_to_rethink_how_we_work_with_agents/" target="_blank" rel="noopener" class="item-title">Supervisor：重新思考多Agent协作方式的开源工具</a>
-      </div>
-      <p class="item-summary">开发者构建了一个无限画布式的多Agent管理工具，解决现有方案（标签页/分栏）不够用的问题。免费开源，支持人工验证节点。多Agent工作流管理是当前AI工具链的明显空缺，有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-16 13:51</span>
-        <span class="meta-stat">💬 6</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1ru332a/screenize_v040_is_now_available_reposted_with_new/" target="_blank" rel="noopener" class="item-title">Screenize v0.4.0：免费开源的 Screen Studio 替代品</a>
-      </div>
-      <p class="item-summary">macOS屏幕录制工具Screenize发布v0.4.0，定位为付费产品Screen Studio的免费开源替代，主打录制后可灵活编辑调整，不锁死生成结果。Screen Studio定价较高，此类开源替代有一定用户需求。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 11:05</span>
-        <span class="meta-stat">👍 42</span><span class="meta-stat">💬 17</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1ruh77j/devglow_run_all_your_dev_servers_from_the_menu/" target="_blank" rel="noopener" class="item-title">devglow：从菜单栏管理所有开发服务器，内置MCP支持</a>
-      </div>
-      <p class="item-summary">开发者构建了一个macOS菜单栏工具，解决多dev server管理的"终端标签地狱"问题，支持日志聚合、进程管理，并内置MCP（Model Context Protocol）供AI调用。AI编程时代的开发工作流工具，定位清晰，有一定参考价值。</p>
+      <p class="item-summary">独立开发者做的macOS菜单栏工具，解决多dev server终端地狱问题：统一管理进程、聚合日志、重启后自动恢复命令，并集成MCP供AI调用。目前无收入数据，但切中AI编程时代开发者高频痛点，同类工具几乎空白，可参考方向。</p>
       <div class="item-meta">
         <span class="meta-source">r/macapps</span>
         <span class="meta-time">03-15 23:38</span>
@@ -1548,205 +396,25 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1ru7sdw/niche_thing_for_ttrpg_players_dungeon_panda/" target="_blank" rel="noopener" class="item-title">Dungeon Panda：为TTRPG桌游玩家提供场景配乐的小工具</a>
+        <a href="https://www.reddit.com/r/passive_income/comments/1rv7ipz/passive_income_tracking/" target="_blank" rel="noopener" class="item-title">独立开发者做了个被动收入聚合仪表盘</a>
       </div>
-      <p class="item-summary">开发者为D&D等桌游场景构建了一个配乐工具，解决"找合适背景音乐"的痛点，主要从游戏原声中整理播放列表。小众垂直场景的早期项目，TTRPG社区有稳定需求，可作为细分市场工具参考。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 15:27</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/passive_income/comments/1rv8als/i_built_a_small_tool_that_helps_me_generate/" target="_blank" rel="noopener" class="item-title">自建工具将旧博客文章自动转化为Pinterest流量针</a>
-      </div>
-      <p class="item-summary">作者为解决Pinterest内容生产瓶颈，自建了一个小工具，将旧博客文章批量生成Pinterest Pin，实现持续被动流量。目前以个人使用为主，但评论区有人询问是否公开。这是一个"内容再利用+自动化分发"方向的早期工具，有产品化潜力。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/passive_income</span>
-        <span class="meta-time">03-16 20:39</span>
-        <span class="meta-stat">👍 1</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/passive_income/comments/1rv7ipz/passive_income_tracking/" target="_blank" rel="noopener" class="item-title">被动收入追踪仪表盘——把5个平台的收入汇总到一处</a>
-      </div>
-      <p class="item-summary">开发者因厌倦登录5个不同平台查收入，自建了一个被动收入聚合仪表盘，支持股息、租金、Etsy、YouTube等多种收入流，含目标追踪、分类统计和6个月趋势图。产品刚上线，处于早期阶段，是典型的"自己痒点驱动"的工具型产品。</p>
+      <p class="item-summary">开发者因厌倦登录5个不同平台查收入，自建了聚合仪表盘，支持股息、租金、Etsy、YouTube等多渠道汇总，含目标追踪和6个月趋势图。产品仍处早期，但"多平台收入聚合"是真实痛点，细分用户群（副业多元化人群）明确，可参考切入点。</p>
       <div class="item-meta">
         <span class="meta-source">r/passive_income</span>
         <span class="meta-time">03-16 20:02</span>
         <span class="meta-stat">👍 1</span><span class="meta-stat">💬 1</span>
       </div>
     </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.reddit.com/r/passive_income/comments/1rv4eql/built_an_ai_video_generator_app_looking_for/" target="_blank" rel="noopener" class="item-title">我做了一个AI视频生成应用，把图像生成和视频生成整合到一个平台</a>
-      </div>
-      <p class="item-summary">开发者发现AI创作工作流碎片化（图像、视频、剪辑分散在不同工具），于是构建了Cliprise，将AI图像生成和AI视频生成整合在一处。产品刚上线寻求反馈，切入点是减少工具切换成本，方向与当前AI内容创作需求契合。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/passive_income</span>
-        <span class="meta-time">03-16 17:05</span>
-        <span class="meta-stat">👍 1</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://github.com/yuvrajangadsingh/vibecheck" target="_blank" rel="noopener" class="item-title">Show HN: Vibecheck——针对AI生成代码的"代码异味"静态检查工具（支持JS/TS/Python）</a>
-      </div>
-      <p class="item-summary">一个专门检测AI生成代码中常见问题（代码异味）的lint工具，支持JavaScript、TypeScript和Python。随着Vibe coding普及，AI生成代码的质量问题日益突出，这是一个精准切入AI辅助开发工作流的早期工具项目，对独立开发者群体有直接参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·Show HN</span>
-        <span class="meta-time">03-16 20:42</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://news.ycombinator.com/item?id=47397990" target="_blank" rel="noopener" class="item-title">Show HN: Rhesis AI – 面向智能体评估的多模态测试用例工具</a>
-      </div>
-      <p class="item-summary">针对AI Agent评估场景的测试用例生成工具，支持多模态输入。随着Agentic AI应用爆发，自动化测试/评估工具链是当前明显缺口，可参考其切入点：为LLM应用开发者提供轻量级eval基础设施。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·Show HN</span>
-        <span class="meta-time">03-16 20:22</span>
-        <span class="meta-stat">👍 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://github.com/odosui/frontpage" target="_blank" rel="noopener" class="item-title">Show HN: Frontpage – LLM驱动的新闻聚合器</a>
-      </div>
-      <p class="item-summary">用LLM做新闻聚合的早期项目，赛道已有多个竞品（如Artifact已关闭）。独立开发者可参考：用AI做垂直领域信息聚合（如科技/创业/设计方向）可能比通用新闻更易找到付费用户。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·Show HN</span>
-        <span class="meta-time">03-16 20:12</span>
-        <span class="meta-stat">👍 1</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://www.openjobs-ai.com/" target="_blank" rel="noopener" class="item-title">Show HN: OpenJobs AI – 用于外向招聘与候选人挖掘的AI Agent</a>
-      </div>
-      <p class="item-summary">将AI Agent用于主动招聘（outbound sourcing）的工具，目标替代传统猎头/LinkedIn Recruiter的部分工作。招聘自动化是企业付费意愿强的方向，值得关注其产品形态与定价策略。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·Show HN</span>
-        <span class="meta-time">03-16 20:12</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://github.com/RA1NCS/svelte-lsp" target="_blank" rel="noopener" class="item-title">Show HN: 为Claude Code提供Svelte文件完整LSP智能支持的插件</a>
-      </div>
-      <p class="item-summary">开发者为Claude Code构建了Svelte LSP集成插件，让AI编程工具能理解.svelte文件语法。细分开发者工具插件是独立开发者可切入的方向——AI编码工具的生态插件需求正快速增长。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·Show HN</span>
-        <span class="meta-time">03-16 19:59</span>
-        <span class="meta-stat">👍 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://github.com/getpaseo/paseo" target="_blank" rel="noopener" class="item-title">Show HN: Paseo – 在手机、桌面或终端运行编程Agent（开源）</a>
-      </div>
-      <p class="item-summary">开源项目，支持跨设备（手机/桌面/终端）运行编程Agent。移动端操控AI编程Agent是尚未被充分满足的场景，开源策略有助于积累开发者社区，商业化可走托管/Pro版路线。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·产品上线</span>
-        <span class="meta-time">03-16 18:29</span>
-        <span class="meta-stat">👍 4</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://saucecode.co/tools/churn" target="_blank" rel="noopener" class="item-title">Show HN: 免费SaaS流失率与留存率计算器</a>
-      </div>
-      <p class="item-summary">面向SaaS创业者的免费计算工具，覆盖churn rate和retention rate核心指标。以免费工具引流是经典独立开发者获客策略，可观察其后续是否有付费产品转化路径，值得参考其工具选题方向。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·项目收入</span>
-        <span class="meta-time">03-16 04:44</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://news.ycombinator.com/item?id=47387443" target="_blank" rel="noopener" class="item-title">Show HN: Dialtone Watcher – 监控你的笔记本电脑在做什么</a>
-      </div>
-      <p class="item-summary">开发者发布了一个工具，用于实时监控笔记本电脑的后台活动，并与"正常水平"做对比。切入点是用户对设备资源占用不透明的焦虑感，属于轻量系统监控工具赛道，有一定参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·离职创业</span>
-        <span class="meta-time">03-15 21:58</span>
-        <span class="meta-stat">👍 6</span><span class="meta-stat">💬 5</span>
-      </div>
-    </div>
   </section>
   <section class="signal-section" id="section-📖">
-    <h2 class="section-title">📖 方法论 <span class="section-count">27</span></h2>
+    <h2 class="section-title">📖 方法论 <span class="section-count">6</span></h2>
     
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/Entrepreneur/comments/1rv7agr/a_side_hustle_can_feel_ready_long_before_its/" target="_blank" rel="noopener" class="item-title">副业在真正稳定之前往往会让你产生"已经准备好了"的错觉</a>
+        <a href="https://www.reddit.com/r/startups/comments/1rv2mkp/is_digital_pr_worth_10k_or_can_you_get_the_same/" target="_blank" rel="noopener" class="item-title">Digital PR花$10k值不值？亲测结论：可以免费复制80%效果</a>
       </div>
-      <p class="item-summary">作者提醒创业者警惕"准备好了"的虚假感——一个好月份、一个强客户、一次流量峰值就会触发这种错觉。核心建议：用至少6个月的稳定数据而非短期高光来判断是否可以全职押注，避免在随机波动上做重大决策。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/Entrepreneur</span>
-        <span class="meta-time">03-16 19:51</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/Entrepreneur/comments/1ru9uhx/ive_been_building_websites_for_local_businesses/" target="_blank" rel="noopener" class="item-title">我给本地小企业做网站不到一年，这是没人告诉过我的事</a>
-      </div>
-      <p class="item-summary">作者服务农民、小店、手艺人等本地客户后发现：这些业主擅长本职但完全不懂数字化，真正的痛点不是"要个网站"而是"要有人帮我搞定线上存在感"。分享了从冷启动到建立本地客户信任的实操经验，对想做本地化Web服务的独立开发者有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/Entrepreneur</span>
-        <span class="meta-time">03-15 17:38</span>
-        <span class="meta-stat">👍 116</span><span class="meta-stat">💬 125</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/Entrepreneur/comments/1ru9pv4/took_3_years_off_after_my_exit_coming_back_feels/" target="_blank" rel="noopener" class="item-title">退出创业后休息了3年，重新出发比从零开始还难</a>
-      </div>
-      <p class="item-summary">曾做过几个小型B2B项目并成功退出，主动休息3年后重返创业发现：人脉网络萎缩、市场节奏变了、自身动力模式也变了。分享了"二次创业"的心理和实操挑战，对有过类似经历或计划"先退出再重来"的创业者有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/Entrepreneur</span>
-        <span class="meta-time">03-15 17:30</span>
-        <span class="meta-stat">👍 76</span><span class="meta-stat">💬 105</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/startups/comments/1rv3nuf/who_is_the_airport_in_your_industry_i_will_not/" target="_blank" rel="noopener" class="item-title">你所在行业里的"机场"是谁？</a>
-      </div>
-      <p class="item-summary">提出一个战略框架：每个行业都有一个"机场"——无论底层谁赢谁输都能稳定抽成的中间层（应用商店抽开发者、支付网关抽商家、市场平台抽卖家）。建议创业者思考如何在自己的行业里找到或成为这个"基础设施层"，而非只做竞争激烈的应用层。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startups</span>
-        <span class="meta-time">03-16 16:17</span>
-        <span class="meta-stat">👍 17</span><span class="meta-stat">💬 4</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/startups/comments/1rv2mkp/is_digital_pr_worth_10k_or_can_you_get_the_same/" target="_blank" rel="noopener" class="item-title">数字PR值$10,000吗？还是可以免费复现？我们的实测结论</a>
-      </div>
-      <p class="item-summary">早期SaaS团队实测数字PR（花钱让代理机构帮你上Forbes/TechCrunch获取高权重外链）的ROI，对比自己操作的免费方案效果。对想做SEO和域名权重的独立开发者有直接参考价值，结论可指导是否值得外包这类增长工作。</p>
+      <p class="item-summary">作者早期为建立域名权威测试了$10k/月的Digital PR机构，发现核心逻辑（向记者投稿获高权重外链）完全可以自己操作，用HARO等免费工具能复制大部分效果。对想做SEO冷启动的独立开发者有直接参考价值。</p>
       <div class="item-meta">
         <span class="meta-source">r/startups</span>
         <span class="meta-time">03-16 15:11</span>
@@ -1756,33 +424,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/startups/comments/1rtlh1c/solo_founder_struggling_to_find_first_users_where/" target="_blank" rel="noopener" class="item-title">独立创始人找不到前50个用户，你是怎么突破冷启动的？</a>
+        <a href="https://www.reddit.com/r/microsaas/comments/1rv312a/what_actually_worked_for_you_to_get_your_first/" target="_blank" rel="noopener" class="item-title">你们获得前100个用户，真正有效的方法是什么？</a>
       </div>
-      <p class="item-summary">独立创始人手动整理了1000+内容创作者和来源（健康/技能/商业/心态方向），拒绝AI抓取以保证质量，但卡在冷启动找不到首批用户。帖子征集真实获客经验，评论区可能有大量可复用的早期用户获取方法论，适合同类内容聚合/策展工具的创业者参考。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/startups</span>
-        <span class="meta-time">03-14 22:54</span>
-        <span class="meta-stat">👍 24</span><span class="meta-stat">💬 115</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/indiehackers/comments/1rv3mod/what_ai_automations_are_you_actually_running_in/" target="_blank" rel="noopener" class="item-title">你的业务中实际在跑哪些AI自动化？我要开一个每周交流实验的空间</a>
-      </div>
-      <p class="item-summary">发起人观察到最有价值的AI实践经验来自真实案例分享（"我搭了什么、哪里出错、怎么改"），而非教程。正在组建一个每周交流AI自动化实验的小圈子，聚焦实际落地经验互换。对想了解AI工具在真实业务中应用场景的开发者有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/indiehackers</span>
-        <span class="meta-time">03-16 16:15</span>
-        <span class="meta-stat">👍 10</span><span class="meta-stat">💬 27</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv312a/what_actually_worked_for_you_to_get_your_first/" target="_blank" rel="noopener" class="item-title">你们实际用什么方法获得了前100个用户？</a>
-      </div>
-      <p class="item-summary">帖子征集真实的冷启动经验，明确排除"发Product Hunt/做SEO/公开建造"等套路答案，要求分享具体有效的获客动作（冷DM、特定社区、某条视频、口碑等）。评论区通常是高密度的一手实操经验，对独立开发者冷启动阶段有直接参考价值。</p>
+      <p class="item-summary">高互动讨论帖，征集"实际有效"的冷启动方法，明确排除Product Hunt/SEO等套话，要求具体到"哪个subreddit/哪条DM/哪个视频"。评论区是真实早期增长案例的集合，对正在冷启动的独立开发者有直接参考价值。</p>
       <div class="item-meta">
         <span class="meta-source">r/microsaas</span>
         <span class="meta-time">03-16 15:37</span>
@@ -1792,33 +436,21 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv8f62/we_accidentally_launched_our_startup_on_product/" target="_blank" rel="noopener" class="item-title">我们意外地在今天发布了Product Hunt</a>
+        <a href="https://www.reddit.com/r/microsaas/comments/1ruzpdk/i_hit_680_paying_customers_in_under_a_year_heres/" target="_blank" rel="noopener" class="item-title">12个月内获得680个付费用户，哪些方法有效、哪些是浪费时间</a>
       </div>
-      <p class="item-summary">创始人分享了一次"事故发布"的真实经历：因时区设置失误，在毫无准备（无邮件列表、无DM预热、无发布策略）的情况下意外上线PH。记录了临时应对过程，对独立开发者理解PH发布节奏有参考价值。</p>
+      <p class="item-summary">创始人分享从3次零牵引失败到12个月内达成680付费用户的真实路径，核心转折是从"自嗨需求"转向"真实用户痛点"。包含具体可复用的增长方法论，过滤掉了无效动作，对独立开发者冷启动阶段有直接参考价值。</p>
       <div class="item-meta">
         <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 20:44</span>
-        <span class="meta-stat">👍 1</span>
+        <span class="meta-time">03-16 12:22</span>
+        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 10</span>
       </div>
     </div>
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/microsaas/comments/1rv8ds2/i_went_from_0_to_0_in_mrr_over_the_past_year/" target="_blank" rel="noopener" class="item-title">过去一年我从$0 MRR做到了$0 MRR，押上了一切。你也可以。</a>
+        <a href="https://www.reddit.com/r/SaaS/comments/1rv61om/i_made_413_from_1700_users_in_3_monthsheres_the/" target="_blank" rel="noopener" class="item-title">1700个用户3个月只赚了$413——诚实的数字拆解</a>
       </div>
-      <p class="item-summary">一篇反套路的失败复盘帖，作者坦承全年MRR为零，专门写给那些被"16个技巧达到五位数MRR"AI生成爆款帖刷屏的创业者。提供了真实失败视角，对独立开发者心态管理和避坑有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/microsaas</span>
-        <span class="meta-time">03-16 20:43</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1rv61om/i_made_413_from_1700_users_in_3_monthsheres_the/" target="_blank" rel="noopener" class="item-title">我用 1700 个用户在 3 个月内赚了 413 美元……诚实的复盘</a>
-      </div>
-      <p class="item-summary">作者坦诚分享冷启动现实：1700 用户、3 个月、MRR 仅 $413，与社区里晒出的 $5k-$15k MRR 截图形成对比。文章拆解了转化率低、定价策略失误等真实原因，是一篇反"成功幸存者偏差"的方法论复盘，对独立开发者判断产品变现节奏有参考价值。</p>
+      <p class="item-summary">开发者公开了反高光的真实数据：1700用户、3个月、MRR仅$413，对比社区里刷屏的$5k-$15k截图。揭示了用户量与变现之间的转化陷阱，对独立开发者校准预期、重新审视定价和付费转化路径有直接参考价值。</p>
       <div class="item-meta">
         <span class="meta-source">r/SaaS</span>
         <span class="meta-time">03-16 18:43</span>
@@ -1828,9 +460,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1ruc0cu/sold_89_lifetime_deals_at_199_each_to_get_off_the/" target="_blank" rel="noopener" class="item-title">我卖了 89 个 $199 终身授权来启动项目，12 个月后算账结果很尴尬</a>
+        <a href="https://www.reddit.com/r/SaaS/comments/1ruc0cu/sold_89_lifetime_deals_at_199_each_to_get_off_the/" target="_blank" rel="noopener" class="item-title">卖了89个$199终身授权，12个月后算账发现是个坑</a>
       </div>
-      <p class="item-summary">作者卖终身授权回收 $17,711 现金，但 12 个月后发现：这 89 个客户产生的支持工单比其他所有付费用户加起来还多，且无法涨价、无法砍功能。深度复盘了 LTD（终身授权）策略的隐性成本，对考虑用 AppSumo 等平台冷启动的独立开发者是重要警示。</p>
+      <p class="item-summary">开发者靠终身Deal筹到$17,711救急，但89个LTD用户产生的支持工单比付费订阅用户多3倍，实际每月服务成本倒贴。真实拆解了LTD的隐性成本，对考虑用AppSumo/LTD起步的独立开发者是极有价值的反面教材。</p>
       <div class="item-meta">
         <span class="meta-source">r/SaaS</span>
         <span class="meta-time">03-15 19:46</span>
@@ -1840,180 +472,12 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1rv2ioz/founders_whats_working_for_b2b_lead_generation_in/" target="_blank" rel="noopener" class="item-title">创始人们：2026 年 B2B 获客什么方法有效？</a>
+        <a href="https://www.reddit.com/r/startupideas/comments/1rv5ig3/post_your_appstartup_on_these_subreddits/" target="_blank" rel="noopener" class="item-title">在这些subreddit上推广你的应用/产品</a>
       </div>
-      <p class="item-summary">有 12 年 B2B 营销经验的从业者总结规律：纯冷外联效果下降，"出站触达 + 教育内容"组合策略更有效。帖子征集社区实战反馈，适合正在做 B2B SaaS 且卡在获客阶段的独立开发者参考，尤其是面向美国/欧洲市场的产品。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SaaS</span>
-        <span class="meta-time">03-16 15:04</span>
-        <span class="meta-stat">👍 6</span><span class="meta-stat">💬 14</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/SaaS/comments/1rv7so0/i_track_patent_filings_weekly_here_are_3_gaps_big/" target="_blank" rel="noopener" class="item-title">我每周追踪专利申请，这里有3个大科技公司正在暗示你去填补的空白</a>
-      </div>
-      <p class="item-summary">作者长期追踪大厂专利申请，认为专利文件相当于巨头公司公开发布的产品路线图。通过分析资金流向和技术布局，可以发现大公司不会亲自去做、但已验证有需求的细分机会。提供了一套从专利信号中识别创业切入点的方法论。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/SaaS</span>
-        <span class="meta-time">03-16 20:16</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 3</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv3t10/month_8_update_the_assumption_i_got_completely/" target="_blank" rel="noopener" class="item-title">第8个月复盘：我完全搞错的那个假设</a>
-      </div>
-      <p class="item-summary">创业者公开建设第8个月复盘：前8个月只用Plausible追踪流量和点击，却忽略了转化链路的关键数据，导致营销决策建立在不完整数据上。分享了发现盲区后的修正方法，对独立开发者做产品增长分析有直接参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 16:26</span>
-        <span class="meta-stat">👍 12</span><span class="meta-stat">💬 8</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv601x/before_you_write_a_single_line_of_code_estimate/" target="_blank" rel="noopener" class="item-title">写代码之前，先估算你的App创意能不能赚钱</a>
-      </div>
-      <p class="item-summary">独立开发者经验总结：大多数App失败不是因为代码烂，而是从一开始就选了不可行的细分市场。文章提供了一套在动手开发前估算App收入潜力的方法，核心是"数学不复杂，但输入参数必须准确"，适合独立开发者在立项阶段做可行性验证。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 18:40</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv88ej/i_analyzed_how_founders_actually_build_their_saas/" target="_blank" rel="noopener" class="item-title">我分析了创始人实际使用的SaaS工具栈（工具、成本与规律）</a>
-      </div>
-      <p class="item-summary">作者对创始人真实使用的SaaS工具组合、成本结构和选型规律进行了系统分析。原摘要为空，但标题本身指向可复用的方法论，对独立开发者了解目标用户工具链、寻找替代或补充产品机会有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 20:36</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/buildinpublic/comments/1rv78wr/how_i_finally_automated_12_years_of_manual/" target="_blank" rel="noopener" class="item-title">我如何用Claude自动化12年的LinkedIn手动销售外联（架构与速率限制详解）</a>
-      </div>
-      <p class="item-summary">B2B销售从业者分享用Claude自动化LinkedIn外联的完整技术方案，涵盖系统架构设计和API速率限制处理。对想构建LinkedIn自动化/销售工具SaaS的独立开发者有直接参考价值，属于可复用的技术方法论。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/buildinpublic</span>
-        <span class="meta-time">03-16 19:49</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/startupideas/comments/1rv5ig3/post_your_appstartup_on_these_subreddits/" target="_blank" rel="noopener" class="item-title">这些Subreddit可以发布你的App/创业项目（附各社区用户量）</a>
-      </div>
-      <p class="item-summary">整理了一份独立开发者推广产品的Reddit社区清单，含用户规模：r/InternetIsBeautiful(1700万)、r/Entrepreneur(480万)、r/SideProject(43万)、r/SaaS(34万)等，可直接用于冷启动流量获取，实用性强。</p>
+      <p class="item-summary">整理了从17M到26K不等的十多个适合发布产品的Reddit子版块清单，按用户量排序。独立开发者冷启动推广的实用渠道列表，可直接收藏使用。</p>
       <div class="item-meta">
         <span class="meta-source">r/startupideas</span>
         <span class="meta-time">03-16 18:12</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1rv57um/i_built_an_ai_app_builder_that_focuses_on_solving/" target="_blank" rel="noopener" class="item-title">我做了一个聚焦"解决真实问题"的AI应用构建器</a>
-      </div>
-      <p class="item-summary">作者指出AI编程工具的核心陷阱：构建速度太快导致开发者容易做出"没人需要的东西"。文章强调在用AI构建前先验证问题是否真实存在，是对Vibecoding开发者有参考价值的方法论提醒。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 17:55</span>
-        <span class="meta-stat">💬 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1ruzrri/ai_debugging_in_nocode_usually_fails_at_the_first/" target="_blank" rel="noopener" class="item-title">AI在无代码调试中总是第一次就猜错——我为此做了一个60秒路由TXT</a>
-      </div>
-      <p class="item-summary">开发者总结了一个规律：AI调试时第一次方向往往偏，导致整个会话越跑越偏。他做了一个"路由TXT"提示词框架来解决这个问题。对用AI辅助开发的独立开发者有直接参考价值，属于可复用的Vibecoding调试方法论。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 12:25</span>
-        <span class="meta-stat">👍 2</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1ruensh/the_hidden_cost_of_nocode_tools_is_switching_away/" target="_blank" rel="noopener" class="item-title">无代码工具隐藏成本：迁移出去有多难</a>
-      </div>
-      <p class="item-summary">作者用了数年无代码工具建产品，总结出一个被忽视的规律：入门体验极好，但一旦超出工具边界或定价暴涨，迁移成本极高——数据被锁死、逻辑难以复现。对独立开发者的启示：早期选型要考虑数据可导出性，也暗示"无代码迁移辅助工具"存在需求。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-15 21:55</span>
-        <span class="meta-stat">👍 3</span><span class="meta-stat">💬 8</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/nocode/comments/1rumzmy/why_people_are_missing_waitlist_management_heres/" target="_blank" rel="noopener" class="item-title">AI创业者每月白白损失$3000+：等待列表管理自动化方案</a>
-      </div>
-      <p class="item-summary">作者观察到AI创业者普遍手动管理waitlist，错失跟进时机，每月损失估计超$3000。文章提供了一套基于Make的自动化waitlist工作流，覆盖全流程触达节点。对独立开发者有参考价值：waitlist自动化是早期产品的真实痛点，也可做成轻量SaaS工具。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/nocode</span>
-        <span class="meta-time">03-16 03:19</span>
-        <span class="meta-stat">👍 1</span><span class="meta-stat">💬 2</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/macapps/comments/1rucbh6/how_do_you_prefer_to_purchase_an_app/" target="_blank" rel="noopener" class="item-title">用户更倾向于哪种付费方式购买App？</a>
-      </div>
-      <p class="item-summary">RevenueCat研究显示订阅疲劳已明显显现：头部10款应用订阅收入增长306%，但其余开发者增长停滞。对独立开发者而言，买断制或混合定价可能比纯订阅更易获得用户认可，值得重新审视定价策略。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/macapps</span>
-        <span class="meta-time">03-15 20:03</span>
-        <span class="meta-stat">👍 6</span><span class="meta-stat">💬 33</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/passive_income/comments/1ruve3j/meta_is_cutting_16000_people_most_of_them_had_no/" target="_blank" rel="noopener" class="item-title">Meta裁员16000人：AI正在让"一人顶三人"成为现实</a>
-      </div>
-      <p class="item-summary">Meta营收上涨却大裁员，核心逻辑是AI工具让单人产出倍增，3-4个岗位可压缩为1个。文章指出这一趋势正在蔓延至各行业，对独立开发者的启示是：面向"小团队替代大团队"场景的效率工具，当前需求窗口正在打开。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/passive_income</span>
-        <span class="meta-time">03-16 08:57</span>
-        <span class="meta-stat">👍 286</span><span class="meta-stat">💬 56</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.reddit.com/r/passive_income/comments/1rug38k/my_first_elevenlabs_voice_earned_284_in_january/" target="_blank" rel="noopener" class="item-title">我在ElevenLabs的第一个声音1月只赚了€2.84，第二个赚了€76——我总结了所有踩过的坑</a>
-      </div>
-      <p class="item-summary">作者在ElevenLabs做声音克隆被动收入，第一个声音因为方法错误月收入仅€2.84，重新做第二个后达到€76。整理了一份避坑指南，揭示声音变现的实际门槛和正确操作路径，对想做AI声音副业的开发者有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">r/passive_income</span>
-        <span class="meta-time">03-15 22:54</span>
-        <span class="meta-stat">👍 53</span><span class="meta-stat">💬 30</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://news.ycombinator.com/item?id=47397737" target="_blank" rel="noopener" class="item-title">Ask HN: AI Agents vs. Gateways vs. Harnesses——概念辨析</a>
-      </div>
-      <p class="item-summary">HN社区讨论AI Agent、Gateway、Harness三种架构模式的区别与适用场景。对正在构建AI工具的独立开发者有参考价值，有助于明确自己产品的定位层次，避免概念混用导致产品方向模糊。</p>
-      <div class="item-meta">
-        <span class="meta-source">HN·离职创业</span>
-        <span class="meta-time">03-16 19:43</span>
         <span class="meta-stat">👍 1</span>
       </div>
     </div>
@@ -2027,742 +491,10 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
   <div class="insight-box">
     <div class="insight-label">🇨🇳 国内动态</div>
     <div class="insight-text">来自百度/微博/抖音热搜 + B站科技区 + 虎嗅/36Kr，
-      已过滤出与商业/创业/产品/AI相关的内容。共 59 条。</div>
+      已过滤出与商业/创业/产品/AI相关的内容。共 38 条。</div>
   </div>
-  <div class="stats-row"><div class="stat-chip"><span>💡</span><strong>10</strong><small>机会信号</small></div><div class="stat-chip"><span>✅</span><strong>5</strong><small>成功案例</small></div><div class="stat-chip"><span>⚠️</span><strong>16</strong><small>行业动态</small></div><div class="stat-chip"><span>🔧</span><strong>7</strong><small>工具产品</small></div><div class="stat-chip"><span>📊</span><strong>11</strong><small>市场趋势</small></div><div class="stat-chip"><span>🔥</span><strong>10</strong><small>热门话题</small></div></div>
-  
-  <section class="signal-section" id="cn-section-💡">
-    <h2 class="section-title">💡 机会信号 <span class="section-count">10</span></h2>
-    
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.baidu.com/s?wd=%E7%9C%BC%E9%95%9C%E7%9A%84%E6%9A%B4%E5%88%A9%20%E8%AE%A9%E4%BA%BA%E5%A4%A7%E8%B7%8C%E7%9C%BC%E9%95%9C" target="_blank" rel="noopener" class="item-title">眼镜的暴利 让人大跌眼镜</a>
-      </div>
-      <p class="item-summary">315曝光眼镜行业15元镜片卖799元、溢价50倍。信息差是暴利根源，线上透明定价眼镜品牌（如木九十、LOHO模式）、验光配镜到家服务、镜片直购平台均有爆发机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.baidu.com/s?wd=%E8%8A%B121%E4%B8%87%E4%B9%B0%E7%9A%84%E6%96%B0%E8%BD%A6%E6%8F%90%E8%BD%A6%E4%B8%80%E4%B8%AA%E6%9C%88%E9%94%88%E8%BF%B9%E6%96%91%E6%96%91" target="_blank" rel="noopener" class="item-title">花21万买的新车提车一个月锈迹斑斑</a>
-      </div>
-      <p class="item-summary">消费者购新车遭遇库存车未告知问题，维权困难。汽车购买前"车辆健康报告"查询工具、第三方验车服务、库存车信息透明化平台存在真实用户需求。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E8%AF%A5%E4%B8%8D%E8%AF%A5%E6%B4%BB%E5%9C%A8%E2%80%9C%E6%A5%9A%E9%97%A8%E7%9A%84%E4%B8%96%E7%95%8C%E2%80%9D%E9%87%8C" target="_blank" rel="noopener" class="item-title">孩子该不该活在"楚门的世界"里</a>
-      </div>
-      <p class="item-summary">幼儿园"云看娃"收费引争议，暴露儿童监控与隐私保护之间的市场空白——合规、免费、隐私友好的幼儿园监控SaaS或家长端产品存在机会，教育科技赛道值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.douyin.com/search/%E6%BC%82%E7%99%BD%E9%B8%A1%E7%88%AA%E4%BC%81%E4%B8%9A%E8%87%B4%E6%AD%89" target="_blank" rel="noopener" class="item-title">漂白鸡爪企业致歉</a>
-      </div>
-      <p class="item-summary">食品安全事件引发消费者对零食品质的强烈不信任，"干净原料""透明供应链"类零食品牌或内容账号迎来窗口期，小红书/抖音上"良心零食推荐"类内容流量将短期暴涨。</p>
-      <div class="item-meta">
-        <span class="meta-source">抖音热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.douyin.com/search/%E5%A6%82%E4%BD%95%E7%9C%8B%E5%BE%85315%E9%97%AE%E9%A2%98%E8%BD%A6%E5%B1%95%E5%8F%98%E6%8B%A6%E8%BD%A6%E5%A4%A7%E8%B5%9B" target="_blank" rel="noopener" class="item-title">如何看待315问题车展变拦车大赛</a>
-      </div>
-      <p class="item-summary">消费者在车展现场拦截问题车企维权，折射出汽车投诉/维权渠道严重不足的痛点。汽车消费者权益保护平台、车主社区、投诉聚合工具存在明显市场空白。</p>
-      <div class="item-meta">
-        <span class="meta-source">抖音热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.douyin.com/search/%E5%AF%B9%E2%80%9C%E5%8F%8C%E6%B0%A7%E6%B0%B4%E6%B3%A1%E9%B8%A1%E7%88%AA%E2%80%9D%E5%BF%85%E9%A1%BB%E8%BF%9E%E6%A0%B9%E9%93%B2" target="_blank" rel="noopener" class="item-title">对"双氧水泡鸡爪"必须连根铲</a>
-      </div>
-      <p class="item-summary">食品安全问题再度引爆舆论，消费者对卤味零食信任危机加深。"干净溯源"类卤味品牌、透明供应链小食品创业迎来窗口期，已有商家借势在小红书/抖音主打"无添加良心鸡爪"。</p>
-      <div class="item-meta">
-        <span class="meta-source">抖音热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.bilibili.com/video/BV1dKw7zFEAy" target="_blank" rel="noopener" class="item-title">公众号流量主，人性鸡汤赛道，每天阅读量10w+，全流程详细讲解</a>
-      </div>
-      <p class="item-summary">公众号内容副业仍有人跑通10w+阅读，鸡汤/情感赛道靠流量主变现模式依然存活，对想做内容副业的独立创作者有路径参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">B站·创业</span>
-        <span class="meta-time">03-16 20:39</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.bilibili.com/video/BV1VfPfzQEqy" target="_blank" rel="noopener" class="item-title">以后的软件不是给你买的，是给你的 agent 买的</a>
-      </div>
-      <p class="item-summary">提出"软件的下一个用户是agent而非人"的核心判断：CLI接口将比UI更重要，独立开发者应优先构建agent可调用的接口层，这是AI时代产品设计的底层逻辑转变，创业机会明确。</p>
-      <div class="item-meta">
-        <span class="meta-source">B站·独立开发</span>
-        <span class="meta-time">03-16 20:30</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.bilibili.com/video/BV1K5NFzrEyx" target="_blank" rel="noopener" class="item-title">【蜜蜂课堂】虚拟商品电商怎么赚钱？3分钟讲透底层盈利逻辑</a>
-      </div>
-      <p class="item-summary">虚拟商品电商（模板、素材、课程等）因零库存、高毛利持续受关注，创作者正在系统化拆解其盈利模型，说明该赛道仍有新入局者需求，适合独立开发者做数字产品变现。</p>
-      <div class="item-meta">
-        <span class="meta-source">B站·副业</span>
-        <span class="meta-time">03-16 20:08</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://www.ifanr.com/1658097?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener" class="item-title">当我们说「文科生也能做AI」时，我们在说些什么</a>
-      </div>
-      <p class="item-summary">文科生入局AI的讨论持续升温，折射出非技术背景人群对AI工具的强烈需求；面向人文/运营/内容从业者的低代码AI工具、AI职业转型课程赛道值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">爱范儿</span>
-        <span class="meta-time">03-16 10:06</span>
-        
-      </div>
-    </div>
-  </section>
-  <section class="signal-section" id="cn-section-✅">
-    <h2 class="section-title">✅ 成功案例 <span class="section-count">5</span></h2>
-    
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.bilibili.com/video/BV1Ygw7z4EQq" target="_blank" rel="noopener" class="item-title">28岁带个助理1年营收3000万，38岁追求稳健合规出海！</a>
-      </div>
-      <p class="item-summary">创业者轻资产出海案例：1人+1助理实现年营收3000万，揭示跨境电商/出海赛道的低人力成本高回报潜力，对考虑出海方向的独立创业者有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">B站·创业</span>
-        <span class="meta-time">03-16 20:45</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://36kr.com/p/3717366669948297?f=rss" target="_blank" rel="noopener" class="item-title">零一汽车再获12亿元融资，想成为重卡领域的「特斯拉」｜36氪首发</a>
-      </div>
-      <p class="item-summary">新能源智能重卡赛道持续获资本青睐，宁德时代、蔚来、淡马锡等顶级机构联合押注，单轮12亿元。重卡电动化+智能化仍是高确定性赛道，相关零部件、运营服务存在创业机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">36Kr</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://36kr.com/p/3725161156639368?f=rss" target="_blank" rel="noopener" class="item-title">车规级碳化硅模块厂商再融资亿元，加速入局AI算力中心基建 | 硬氪首发</a>
-      </div>
-      <p class="item-summary">SiC碳化硅模块厂利普思完成亿元PreB+融资，从汽车电子跨界布局AI算力中心电源基建。碳化硅在算力基础设施的应用场景正在打开，硬件国产替代+AI基建双重逻辑叠加。</p>
-      <div class="item-meta">
-        <span class="meta-source">36Kr</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.tmtpost.com/7916213.html" target="_blank" rel="noopener" class="item-title">霸王茶姬拟进入韩国市场；爱诗科技完成3亿美元C轮融资，多家海外机构参与投资；完美日记母公司获战略投资，计划扩张海外</a>
-      </div>
-      <p class="item-summary">爱诗科技（AI视频生成）完成3亿美元C轮，海外机构背书，AI视觉内容赛道融资热度持续；霸王茶姬、完美日记出海提速，国货品牌出海服务（本地化、合规、营销）需求旺盛。</p>
-      <div class="item-meta">
-        <span class="meta-source">钛媒体</span>
-        <span class="meta-time">03-16 20:30</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.tmtpost.com/7915839.html" target="_blank" rel="noopener" class="item-title">韶音如何在技术无人区，走出耳机第三条路？</a>
-      </div>
-      <p class="item-summary">韶音凭借开放式耳机差异化定位突围ANC红海，OpenFit Pro以软硬件结合打破"开放式不能降噪"认知，印证硬件创业中技术壁垒+场景细分仍能开辟新市场。</p>
-      <div class="item-meta">
-        <span class="meta-source">钛媒体</span>
-        <span class="meta-time">03-16 19:33</span>
-        
-      </div>
-    </div>
-  </section>
-  <section class="signal-section" id="cn-section-⚠️">
-    <h2 class="section-title">⚠️ 行业动态 <span class="section-count">16</span></h2>
-    
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.baidu.com/s?wd=%E8%8C%85%E5%8F%B0%E6%98%AF%E6%97%B6%E5%80%99%E8%B5%B0%E4%B8%8B%E7%A5%9E%E5%9D%9B%E4%BA%86" target="_blank" rel="noopener" class="item-title">茅台是时候走下神坛了</a>
-      </div>
-      <p class="item-summary">茅台三任董事长落马、股价大幅回撤、飞天价格失守、社会库存高企，高端白酒神话动摇。平价白酒品牌、酱酒替代品、白酒二级市场透明定价平台或迎来窗口期。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E9%99%85%E5%B7%A8%E5%A4%B4%E8%A2%AB%E6%9B%9D%EF%BC%9A%E8%AE%A1%E5%88%92%E8%A3%81%E5%91%98%E8%B6%851.5%E4%B8%87%E4%BA%BA" target="_blank" rel="noopener" class="item-title">国际巨头被曝：计划裁员超1.5万人</a>
-      </div>
-      <p class="item-summary">Meta计划裁员逾1.5万人（约20%），明确原因是AI提升效率替代人力+抵消AI基建成本。大厂裁员潮将释放大量技术人才，利好AI创业生态，同时印证AI替代白领岗位趋势加速。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.baidu.com/s?wd=315%E7%82%B9%E5%90%8D%E5%90%8E%20%E5%93%88%E5%95%B0%E4%B8%8B%E6%9E%B6%E5%85%A8%E9%83%A8%E7%A7%9F%E8%B5%81%E7%94%B5%E5%8A%A8%E8%BD%A6" target="_blank" rel="noopener" class="item-title">315点名后 哈啰下架全部租赁电动车</a>
-      </div>
-      <p class="item-summary">哈啰租赁电动车因违规解除限速被315曝光后紧急下架，大量依赖租赁电动车的外卖骑手面临用车缺口，合规共享电动车运营及骑手用车平台短期内存在替代需求机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.baidu.com/s?wd=%E4%BA%8B%E5%85%B3%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7%EF%BC%81%E5%AE%98%E6%96%B9%EF%BC%9A%E4%B8%A5%E7%AE%A1%E4%B8%A5%E6%9F%A5%E4%B8%A5%E6%83%A9" target="_blank" rel="noopener" class="item-title">事关直播带货！官方：严管严查严惩</a>
-      </div>
-      <p class="item-summary">市场监管总局重拳整治直播带货乱象，重点打击虚假宣传和入网食品资质问题。对合规MCN机构和正规食品品牌是利好，也倒逼直播电商合规工具、资质审核SaaS等服务需求上升。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://s.weibo.com/weibo?q=%23%E9%B8%BF%E8%92%99%E6%99%BA%E8%A1%8C%20%E5%B0%8F%E7%B1%B3%23" target="_blank" rel="noopener" class="item-title">鸿蒙智行 小米</a>
-      </div>
-      <p class="item-summary">鸿蒙智行与小米同时登上热搜，国产智能汽车生态竞争持续白热化，围绕车载软件、智驾配件、车主社区等周边创业机会值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">微博热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.douyin.com/search/%E9%B2%8D%E5%A8%81%E5%B0%94%E7%95%99%E4%BB%BB%E5%8F%AF%E8%83%BD%E6%80%A7%E4%B8%8A%E5%8D%87" target="_blank" rel="noopener" class="item-title">鲍威尔留任可能性上升</a>
-      </div>
-      <p class="item-summary">美联储主席留任预期升温，意味着美国货币政策延续性增强，对跨境电商、外贸、汇率敏感型业务有直接影响，独立开发者关注美元结算收入的可重点跟踪。</p>
-      <div class="item-meta">
-        <span class="meta-source">抖音热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.douyin.com/search/%E5%A4%9A%E4%B8%AA%E5%87%A4%E7%88%AA%E5%93%81%E7%89%8C%E8%82%A1%E4%BB%B7%E9%9B%86%E4%BD%93%E4%B8%8B%E8%B7%8C" target="_blank" rel="noopener" class="item-title">多个凤爪品牌股价集体下跌</a>
-      </div>
-      <p class="item-summary">漂白鸡爪事件直接冲击整个凤爪赛道上市公司市值，行业信任危机下，主打"无添加/可溯源"的新兴零食品牌或代工厂有弯道超车机会，同时危机公关SaaS需求上升。</p>
-      <div class="item-meta">
-        <span class="meta-source">抖音热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.bilibili.com/video/BV1w7wuzSEnm" target="_blank" rel="noopener" class="item-title">315曝光狂飙的租赁电动自行车 315点名哈啰租电动车、电驴哥违反国标</a>
-      </div>
-      <p class="item-summary">315晚会点名哈啰等共享电动车平台违反国标，合规整改压力下，符合国标的电动车租赁/销售替代方案存在短期市场机会，同时催生安全检测、合规咨询等B端需求。</p>
-      <div class="item-meta">
-        <span class="meta-source">B站科技榜</span>
-        <span class="meta-time">03-16 20:46</span>
-        <span class="meta-stat">👍 6068</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="http://www.huxiu.com/article/4842120.html?f=wangzhan" target="_blank" rel="noopener" class="item-title">玛莎拉蒂母公司Stellantis接洽小米小鹏投资？能双赢吗</a>
-      </div>
-      <p class="item-summary">Stellantis拟向小米、小鹏出售玛莎拉蒂等品牌股权并开放欧洲产能，中国新势力借道传统豪华品牌快速进入欧洲市场，汽车出海供应链、本地化服务等配套创业机会值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">虎嗅</span>
-        <span class="meta-time">03-15 10:30</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://36kr.com/p/3725426197150345?f=rss" target="_blank" rel="noopener" class="item-title">地平线芯片负责人将离职，公司走向软硬一体架构｜36氪独家</a>
-      </div>
-      <p class="item-summary">地平线核心芯片研发负责人陈鹏离职，公司战略转向软硬一体，接替者苏箐主导征程7架构设计。国产自动驾驶芯片格局或生变，上下游供应链及竞对值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">36Kr</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://36kr.com/p/3725424173857155?f=rss" target="_blank" rel="noopener" class="item-title">36氪晚报｜抖音旗下科技公司在深圳成立新信息技术公司</a>
-      </div>
-      <p class="item-summary">抖音在深圳新设信息技术公司，字节跳动持续扩张科技版图；同期半导体板块大涨，华虹A股单日涨超16%，AI算力基建投资热度不减，相关创业方向值得跟踪。</p>
-      <div class="item-meta">
-        <span class="meta-source">36Kr</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://36kr.com/p/3725098876140164?f=rss" target="_blank" rel="noopener" class="item-title">清越科技发布双品牌战略，将拓展服务机器人核心部件领域丨最前线</a>
-      </div>
-      <p class="item-summary">清越科技从清洁家电供应链切入服务机器人核心功能组件，推出新品牌Show Robotics。家电供应链企业向机器人零部件转型成新趋势，核心部件国产替代机会值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">36Kr</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.ifanr.com/1658150?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener" class="item-title">早报｜iOS 27或为折叠屏iPhone做定制/315晚会曝光AI「投毒」产业链/Meta被曝裁员1.6万人</a>
-      </div>
-      <p class="item-summary">315曝光AI"投毒"产业链（疑指AI生成虚假内容污染网络），引发监管关注；AI内容真实性检测、溯源工具需求将上升。Meta裁员1.6万人，海外AI人才或加速流入创业市场。</p>
-      <div class="item-meta">
-        <span class="meta-source">爱范儿</span>
-        <span class="meta-time">03-16 09:34</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.tmtpost.com/7916151.html" target="_blank" rel="noopener" class="item-title">顶固集创2.68亿跨界豪赌：10倍溢价收购，主业承压下突围成效待考｜并购一线</a>
-      </div>
-      <p class="item-summary">传统家居企业以10倍溢价跨界收购求转型，反映主业（定制家居）增长见顶压力；细分赛道整合并购加剧，为垂直SaaS和供应链服务商带来被收购或合作机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">钛媒体</span>
-        <span class="meta-time">03-16 19:39</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.tmtpost.com/7916081.html" target="_blank" rel="noopener" class="item-title">洗牌与破局：手术机器人陷行业内卷与定价失衡，收费新政如何唤醒市场？｜行业风向标</a>
-      </div>
-      <p class="item-summary">手术机器人行业出现企业退场，内卷与定价困局并存。收费新政或将重塑市场格局，关注医疗机器人赛道中差异化定位和成本优化方向的创业机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">钛媒体</span>
-        <span class="meta-time">03-16 19:12</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">⚠️</span>
-        <a href="https://www.tmtpost.com/7915661.html" target="_blank" rel="noopener" class="item-title">王兴学会"断舍离"</a>
-      </div>
-      <p class="item-summary">美团战略收缩、聚焦核心业务，意味着部分边缘业务可能被放弃，独立开发者可关注美团退出领域是否存在被释放的细分市场机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">钛媒体</span>
-        <span class="meta-time">03-16 18:10</span>
-        
-      </div>
-    </div>
-  </section>
-  <section class="signal-section" id="cn-section-🔧">
-    <h2 class="section-title">🔧 工具产品 <span class="section-count">7</span></h2>
-    
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://s.weibo.com/weibo?q=%23%E8%B7%9F%E7%9D%80%E5%91%A8%E4%BA%91%E6%9D%B0%E6%89%93%E5%8D%A1%E6%97%A0%E4%BA%BA%E5%AE%B6%E5%8A%A1%E9%BB%91%E7%A7%91%E6%8A%80%23" target="_blank" rel="noopener" class="item-title">跟着周云杰打卡无人家务黑科技</a>
-      </div>
-      <p class="item-summary">海尔集团董事局主席周云杰为"无人家务"智能家居产品站台，家务自动化/智能家电赛道持续升温，扫地机器人、洗碗机、智能晾衣架等细分品类仍有差异化切入空间。</p>
-      <div class="item-meta">
-        <span class="meta-source">微博热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://www.bilibili.com/video/BV1JowjzKEKE" target="_blank" rel="noopener" class="item-title">两个小时我用AI开发了游戏的核心玩法框架，怎么正确的使用AI帮助开发 | 第十四天</a>
-      </div>
-      <p class="item-summary">分享AI辅助独立游戏开发的实操方法论：先与AI讨论需求生成文档再执行，避免"局部正确总体错误"的陷阱，对用AI提效的独立开发者有直接工具价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">B站·独立开发</span>
-        <span class="meta-time">03-16 20:12</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://www.bilibili.com/video/BV1LKw7zFEor" target="_blank" rel="noopener" class="item-title">AI Agent 工具调用自动审批，兼顾效率与安全！</a>
-      </div>
-      <p class="item-summary">开源项目Dais实现AI Agent工具调用的自动审批机制，解决企业落地AI时"效率vs安全"的核心矛盾，是Agent工程化方向的细分工具机会，值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">B站·AI工具</span>
-        <span class="meta-time">03-16 20:39</span>
-        <span class="meta-stat">👍 1</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://www.bilibili.com/video/BV1pmwjzGE9y" target="_blank" rel="noopener" class="item-title">英伟达出品，AI图片视频高清放大VFX工具V1.0，速度飞快，支持批量，效果凑合，不用搭建环境，解压即用！</a>
-      </div>
-      <p class="item-summary">英伟达官方推出免安装环境的AI高清放大工具，支持批量处理，播放量超千次说明需求真实。"解压即用"降低门槛，面向视频创作者和设计师的AI画质增强工具市场正在扩大。</p>
-      <div class="item-meta">
-        <span class="meta-source">B站·AI工具</span>
-        <span class="meta-time">03-16 20:20</span>
-        <span class="meta-stat">👍 29</span>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://36kr.com/p/3725107868285576?f=rss" target="_blank" rel="noopener" class="item-title">科氪 | 戴森推出全新PencilWash™洗地机，焕新湿拖清洁体验</a>
-      </div>
-      <p class="item-summary">戴森以38mm超细机身切入洗地机赛道，主打轻量化与低矮空间清洁。高端清洁电器持续细分创新，国产品牌在轻量化、场景化洗地机方向存在跟进与差异化竞争机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">36Kr</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://sspai.com/post/107431" target="_blank" rel="noopener" class="item-title">派评 | 近期值得关注的 App</a>
-      </div>
-      <p class="item-summary">少数派定期盘点优质App，是独立开发者观察产品趋势、发现用户需求的重要参考渠道，可追踪哪类工具类产品正在获得高质量用户认可。</p>
-      <div class="item-meta">
-        <span class="meta-source">少数派</span>
-        <span class="meta-time">03-16 17:53</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔧</span>
-        <a href="https://sspai.com/post/106939" target="_blank" rel="noopener" class="item-title">今夜，大模型从世界消散</a>
-      </div>
-      <p class="item-summary">从顺行性遗忘症视角解析LLM上下文机制，对开发者理解大模型记忆局限有实用价值，也暗示"长期记忆/持久上下文"是当前AI产品的核心待解痛点。</p>
-      <div class="item-meta">
-        <span class="meta-source">少数派</span>
-        <span class="meta-time">03-15 10:38</span>
-        
-      </div>
-    </div>
-  </section>
-  <section class="signal-section" id="cn-section-📊">
-    <h2 class="section-title">📊 市场趋势 <span class="section-count">11</span></h2>
-    
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E9%83%BD%E5%9C%A8%E6%94%92%E2%80%9C%E6%96%B0%E4%B8%89%E9%87%91%E2%80%9D" target="_blank" rel="noopener" class="item-title">年轻人都在攒"新三金"</a>
-      </div>
-      <p class="item-summary">超890万用户开启黄金ETF定投，95后占4成。年轻人理财观念从实物黄金/房产转向基金组合，低门槛理财工具、理财教育内容、ETF定投陪跑类产品存在明显市场机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://www.baidu.com/s?wd=%E5%8F%88%E6%9C%892%E4%B8%AA%E6%89%8B%E6%9C%BA%E5%93%81%E7%89%8C%E5%AE%98%E5%AE%A3%E6%B6%A8%E4%BB%B7" target="_blank" rel="noopener" class="item-title">又有2个手机品牌官宣涨价</a>
-      </div>
-      <p class="item-summary">vivo、iQOO继OPPO/一加之后宣布涨价，国产手机集体提价潮由半导体及存储成本上涨驱动。手机配件、以旧换新、翻新机及中低价位替代品赛道或迎来需求增长窗口。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E5%95%86%E4%B8%9A%E7%94%A8%E6%88%BF%E6%9C%80%E4%BD%8E%E9%A6%96%E4%BB%98%E8%B0%83%E4%B8%BA%E4%B8%8D%E4%BD%8E%E4%BA%8E30%25" target="_blank" rel="noopener" class="item-title">上海商业用房最低首付调为不低于30%</a>
-      </div>
-      <p class="item-summary">上海商业用房首付比例政策收紧，"商住两用房"门槛提高，将影响创业者低成本办公选址策略，联合办公、灵活租赁等轻资产办公服务需求或因此上升。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://s.weibo.com/weibo?q=%232026%E5%B9%B4%E4%BB%A5%E6%97%A7%E6%8D%A2%E6%96%B0%E6%95%B0%E6%8D%AE%E4%BA%AE%E7%9C%BC%23" target="_blank" rel="noopener" class="item-title">2026年以旧换新数据亮眼</a>
-      </div>
-      <p class="item-summary">以旧换新政策持续拉动消费，家电、3C品类换新需求旺盛。二手回收、翻新电商、以旧换新撮合平台等赛道迎来政策红利窗口期，值得关注。</p>
-      <div class="item-meta">
-        <span class="meta-source">微博热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://www.douyin.com/search/%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%83%BD%E6%89%93%E7%BD%91%E7%90%83%E4%BA%86" target="_blank" rel="noopener" class="item-title">人形机器人能打网球了</a>
-      </div>
-      <p class="item-summary">人形机器人运动能力持续突破，具身智能赛道热度高涨。网球等高精度动作场景的落地，预示着人形机器人商业化进程加速，相关硬件、训练数据、仿真平台存在创业机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">抖音热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://www.bilibili.com/video/BV1vAwKzaE9d" target="_blank" rel="noopener" class="item-title">2026年电商卖家真正的分水岭是什么？</a>
-      </div>
-      <p class="item-summary">电商行业正在经历结构性分化，讨论2026年决定卖家生死的核心变量，对布局跨境或国内电商的创业者有战略参考意义。</p>
-      <div class="item-meta">
-        <span class="meta-source">B站·创业</span>
-        <span class="meta-time">03-16 20:40</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://36kr.com/p/3725245431839369?f=rss" target="_blank" rel="noopener" class="item-title">松下发布中国事业新战略：明星单品、套系家电加码，强调"Made by China"出海丨最前线</a>
-      </div>
-      <p class="item-summary">松下明确中国家电市场"需求下降、存量内卷"，转而押注套系化产品与中国制造出海。传统外资家电品牌收缩信号明显，国产品牌及供应链出海服务商迎来窗口期。</p>
-      <div class="item-meta">
-        <span class="meta-source">36Kr</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://36kr.com/p/3725233182062982?f=rss" target="_blank" rel="noopener" class="item-title">补齐AI板块核心拼图，网络基建「卖铲人」飞速创新登陆港交所</a>
-      </div>
-      <p class="item-summary">2026年港股IPO含AI量极高，MiniMax、智谱等大模型独角兽及AI基建企业密集上市，募资总额逼近千亿。AI基础设施"卖铲人"赛道正成为资本市场新宠，融资窗口开放。</p>
-      <div class="item-meta">
-        <span class="meta-source">36Kr</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://www.ifanr.com/1658167?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener" class="item-title">「不作秀」的科沃斯机器人，如何实现具身智能未来？</a>
-      </div>
-      <p class="item-summary">科沃斯押注具身智能落地家庭场景，家用服务机器人赛道正从扫地机向通用智能体演进，相关软件生态、场景数据采集及机器人应用开发存在创业窗口。</p>
-      <div class="item-meta">
-        <span class="meta-source">爱范儿</span>
-        <span class="meta-time">03-16 17:30</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://www.ifanr.com/1658183?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener" class="item-title">对话美的AI研究院院长徐翼：有了MevoX智能体，家的意义也更新了</a>
-      </div>
-      <p class="item-summary">美的推出家居AI智能体MevoX，家电巨头加速AI化布局，智能家居场景下的第三方AI应用集成、家庭数据管理及跨品牌互联方案存在创业机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">爱范儿</span>
-        <span class="meta-time">03-16 15:19</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📊</span>
-        <a href="https://www.tmtpost.com/7912722.html" target="_blank" rel="noopener" class="item-title">欧伦电气：业绩逆市增长，3成资产是货币资金还募1亿补流｜IPO观察</a>
-      </div>
-      <p class="item-summary">除湿机与移动空调出海品牌逆市增长，境外收入占比超60%。小家电出海仍有结构性机会，但北交所对其数据合理性存疑，值得关注细分品类跨境电商打法。</p>
-      <div class="item-meta">
-        <span class="meta-source">钛媒体</span>
-        <span class="meta-time">03-16 19:03</span>
-        
-      </div>
-    </div>
-  </section>
-  <section class="signal-section" id="cn-section-🔥">
-    <h2 class="section-title">🔥 热门话题 <span class="section-count">10</span></h2>
-    
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%BE%8B%E6%9C%BA%E5%99%A8%E4%BA%BA%E2%80%9C%E8%A2%AB%E6%8D%95%E2%80%9D%E4%BA%8B%E4%BB%B6%E5%87%BA%E7%8E%B0" target="_blank" rel="noopener" class="item-title">全球首例机器人"被捕"事件出现</a>
-      </div>
-      <p class="item-summary">机器人公共场景中的行为边界与安全感问题引发关注，折射出服务机器人落地过程中用户体验设计的痛点——如何让机器人在公共空间不引发恐慌，是人机交互产品的真实需求。</p>
-      <div class="item-meta">
-        <span class="meta-source">百度热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="https://s.weibo.com/weibo?q=%23%E6%89%8B%E6%9C%BA%E7%94%B5%E8%84%91%E8%BF%8E%E6%9D%A5%E6%B6%A8%E4%BB%B7%E6%BD%AE%23" target="_blank" rel="noopener" class="item-title">手机电脑迎来涨价潮</a>
-      </div>
-      <p class="item-summary">受关税及供应链压力影响，手机电脑价格普涨，消费者购买意愿短期承压。二手数码交易平台、租赁订阅模式硬件服务或迎来流量红利，也利好国产替代品牌。</p>
-      <div class="item-meta">
-        <span class="meta-source">微博热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="https://s.weibo.com/weibo?q=%23315%E5%A1%8C%E6%88%BF%E5%85%A8%E6%80%BB%E7%BB%93%23" target="_blank" rel="noopener" class="item-title">315塌房全总结</a>
-      </div>
-      <p class="item-summary">315晚会曝光品牌集中引发舆论，历年规律显示被点名品牌短期销量暴跌，竞品/替代品迎来流量红利，合规检测、品牌危机公关、"良心替代"选品等细分需求随之爆发。</p>
-      <div class="item-meta">
-        <span class="meta-source">微博热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="https://s.weibo.com/weibo?q=%23%E6%9D%8E%E8%AF%9E%E8%AF%B4%E7%8E%B0%E5%9C%A8%E5%A4%B1%E4%B8%9A%E7%9A%84%E4%BA%BA%E5%8F%AF%E8%83%BD%E6%98%AF%E4%B8%80%E4%BB%B6%E5%A5%BD%E4%BA%8B%23" target="_blank" rel="noopener" class="item-title">李诞说现在失业的人可能是一件好事</a>
-      </div>
-      <p class="item-summary">知名KOL借失业话题引发广泛共鸣，折射当前就业焦虑情绪高涨；副业平台、自由职业撮合工具、技能变现课程等产品的获客成本正处于低位，是切入"失业再就业"赛道的窗口期。</p>
-      <div class="item-meta">
-        <span class="meta-source">微博热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="https://www.douyin.com/search/315%E6%9B%9D%E5%85%89%E5%90%8D%E5%8D%95" target="_blank" rel="noopener" class="item-title">315曝光名单</a>
-      </div>
-      <p class="item-summary">315曝光每年引发消费者大规模替代品搜索潮，今年曝光名单持续发酵，相关"平替""良心品牌"内容创作、导购工具、比价小程序均可借势获客，是短期流量红利窗口。</p>
-      <div class="item-meta">
-        <span class="meta-source">抖音热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="https://www.douyin.com/search/315%E6%99%9A%E4%BC%9A" target="_blank" rel="noopener" class="item-title">315晚会</a>
-      </div>
-      <p class="item-summary">一年一度315曝光季，被点名行业短期信任崩塌，替代品/竞品需求暴增。创业者可快速追踪今年曝光品类，在电商、内容平台卡位"安全替代"心智，历年均有品牌借此完成冷启动。</p>
-      <div class="item-meta">
-        <span class="meta-source">抖音热搜</span>
-        <span class="meta-time">03-16 20:46</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="http://www.huxiu.com/article/4842273.html?f=wangzhan" target="_blank" rel="noopener" class="item-title">重金求安装，连夜付费卸载：龙虾潮背后的焦虑</a>
-      </div>
-      <p class="item-summary">某AI/末日预测类内容引发用户"付费安装再付费卸载"的极端焦虑行为，折射出信息焦虑经济的强需求——辟谣工具、信息可信度评级、情绪管理类产品均存在切入机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">虎嗅</span>
-        <span class="meta-time">03-16 17:00</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="https://sspai.com/post/107396" target="_blank" rel="noopener" class="item-title">派早报：市场监管总局整治「大字吸睛、小字免责」等广告乱象；315晚会曝光AI大模型被「投毒」；PlayStation商店测试动态定价；中国批准首个脑机接口医疗器械</a>
-      </div>
-      <p class="item-summary">多条高价值信号：①AI大模型数据投毒被315曝光，模型安全/数据质量检测工具需求将爆发；②脑机接口首获国内医疗器械批准，商业化进程加速；③PS动态定价测试引发用户反弹，订阅/定价透明化工具存在机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">少数派</span>
-        <span class="meta-time">03-16 07:17</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="https://www.ifanr.com/1658270?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener" class="item-title">门口拦人，现场退车？为了不上315晚会，车企们豁出去了</a>
-      </div>
-      <p class="item-summary">315前夕车企主动拦截维权消费者、现场退车，暴露汽车售后/投诉处理行业痛点，第三方汽车消费者权益保护平台、车主维权SaaS工具存在机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">爱范儿</span>
-        <span class="meta-time">03-16 20:37</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">🔥</span>
-        <a href="https://www.ifanr.com/1658148?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank" rel="noopener" class="item-title">🦞虾骑马！龙虾圈传了一周的匿名模型，原来是它｜附最新体验细节</a>
-      </div>
-      <p class="item-summary">AI圈匿名模型引发大规模猜测讨论，说明顶级模型的"盲测口碑"营销效应极强；对独立开发者而言，基于新模型能力快速构建垂直应用是近期高性价比机会。</p>
-      <div class="item-meta">
-        <span class="meta-source">爱范儿</span>
-        <span class="meta-time">03-16 16:21</span>
-        
-      </div>
-    </div>
-  </section>
+  <div class="stats-row"></div>
+  <p style="color:#888;padding:20px 0">今日暂无国内热点数据，请先运行 scrape_cn.py</p>
 </main>
 </div>
 
@@ -2772,31 +504,19 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
   <div class="insight-box">
     <div class="insight-label">📱 社交媒体信号</div>
     <div class="insight-text">来自小红书 / 即刻 / Twitter·X / LinkedIn，
-      通过 Tavily 实时搜索索引获取，已 LLM 过滤创业相关内容。共 17 条。</div>
+      通过 Tavily 实时搜索索引获取，已 LLM 过滤创业相关内容。共 5 条。</div>
   </div>
-  <div class="stats-row"><div class="stat-chip"><span>💡</span><strong>4</strong><small>机会信号</small></div><div class="stat-chip"><span>✅</span><strong>5</strong><small>成功案例</small></div><div class="stat-chip"><span>🌱</span><strong>1</strong><small>产品发布</small></div><div class="stat-chip"><span>🔥</span><strong>1</strong><small>热门话题</small></div><div class="stat-chip"><span>📖</span><strong>6</strong><small>经验分享</small></div></div>
+  <div class="stats-row"><div class="stat-chip"><span>💡</span><strong>3</strong><small>机会信号</small></div><div class="stat-chip"><span>✅</span><strong>1</strong><small>成功案例</small></div><div class="stat-chip"><span>🔥</span><strong>1</strong><small>热门话题</small></div></div>
   
   <section class="signal-section" id="social-section-💡">
-    <h2 class="section-title">💡 机会信号 <span class="section-count">4</span></h2>
+    <h2 class="section-title">💡 机会信号 <span class="section-count">3</span></h2>
     
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">💡</span>
-        <a href="https://zhuanlan.zhihu.com/p/2011912458730763288" target="_blank" rel="noopener" class="item-title">2026 AI赚钱｜工具+接单渠道清单（零成本入门）</a>
+        <a href="https://m.okjike.com/originalPosts/677e74efb8e0dfdbaba510a4" target="_blank" rel="noopener" class="item-title">海外独立开发者ARR数据水分揭露：亲测后的反思</a>
       </div>
-      <p class="item-summary">指出小红书文案、短视频脚本、简历优化、电商详情页是当前AI接单的高频刚需场景，免费工具（豆包/DeepSeek/通义千问）即可完成，十几分钟一单。揭示了一个真实存在的低价服务市场缺口，适合判断是否值得做对应的效率工具或撮合平台。</p>
-      <div class="item-meta">
-        <span class="meta-source">小红书·独立开发</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">💡</span>
-        <a href="https://m.okjike.com/originalPosts/64bf479bb486df50b2ca2f93?s=eyJ1IjoiNjNiNjkyNDI2NWRhMmE3OTkyNTUyZDJlIn0%3D" target="_blank" rel="noopener" class="item-title">好不容易决定自己创业，选择了独立开发这条路</a>
-      </div>
-      <p class="item-summary">作者真实记录独立开发初期最难的环节——产品方向选择与市场定位，而非技术本身。揭示了"从设计师/工程师单一视角切换到创业者全局视角"这一普遍痛点，对刚入局独立开发的人有共鸣价值。</p>
+      <p class="item-summary">即刻作者亲身实操后发现，海外独立开发者分享的ARR数据和增长经验存在严重水分，"没有成功可以一蹴而就"。对计划参考海外案例出海的独立开发者有重要警示价值，需批判性筛选信息源。</p>
       <div class="item-meta">
         <span class="meta-source">即刻·独立开发</span>
         <span class="meta-time">近期</span>
@@ -2806,9 +526,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">💡</span>
-        <a href="https://m.okjike.com/originalPosts/677e74efb8e0dfdbaba510a4" target="_blank" rel="noopener" class="item-title">海外独立开发者分享的ARR和增长经验，水分究竟有多大？</a>
+        <a href="https://m.okjike.com/originalPosts/68f751aad9abb9785d2d647f" target="_blank" rel="noopener" class="item-title">Venture Studio收购冷门SaaS做到ARR $9000万的商业模式</a>
       </div>
-      <p class="item-summary">作者亲身实操后发现，海外创业者公开分享的ARR数据和增长方法论存在大量注水，"没有成功可以一蹴而就"。对盲目跟风海外案例的国内独立开发者是重要警示，也侧面说明真实、可验证的增长方法论存在市场空缺。</p>
+      <p class="item-summary">一家Venture Studio专门收购增长缓慢但盈利的中小型独立开发者SaaS产品，已将组合ARR做到9000万美金。对独立开发者的启示：利润型小产品有退出路径，不必追求高增长。</p>
       <div class="item-meta">
         <span class="meta-source">即刻·独立开发</span>
         <span class="meta-time">近期</span>
@@ -2818,73 +538,9 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">💡</span>
-        <a href="https://www.linkedin.com/posts/narayananprasath_if-youre-a-startup-founder-or-product-leader-activity-7426693463699677184-Al31" target="_blank" rel="noopener" class="item-title">2026年AI对创业者既是火箭燃料也是生存威胁</a>
+        <a href="https://www.linkedin.com/posts/jessica-morgan-b56b0315b_indiehacker-startups-saas-activity-7390523039081263105-eDyc" target="_blank" rel="noopener" class="item-title">Indie Hacker vs VC路径对比：同一产品两种命运</a>
       </div>
-      <p class="item-summary">文章指出AI正在同时扮演创业加速器和颠覆者两个角色——强大模型降低了建产品的门槛，但也让竞争壁垒快速消失。对独立开发者而言，如何找到AI难以替代的细分场景是核心命题。</p>
-      <div class="item-meta">
-        <span class="meta-source">LinkedIn·产品发布</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-  </section>
-  <section class="signal-section" id="social-section-✅">
-    <h2 class="section-title">✅ 成功案例 <span class="section-count">5</span></h2>
-    
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.xiaohongshu.com/user/profile/619e3bf30000000010005849" target="_blank" rel="noopener" class="item-title">前程序员用AI开发DKFile，已产生美金收入</a>
-      </div>
-      <p class="item-summary">前程序员转型独立开发者，用AI编程工具（Trae）开发文件管理工具DKFile，小程序已上线并带来美金收入。验证了"非全职程序员借助AI工具从0开发并出海变现"的可行路径，适合技术背景弱的创业者参考。</p>
-      <div class="item-meta">
-        <span class="meta-source">小红书·副业</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://m.okjike.com/originalPosts/68f751aad9abb9785d2d647f" target="_blank" rel="noopener" class="item-title">Replit创业历程：一家Venture Studio收购冷门SaaS做到9000万ARR</a>
-      </div>
-      <p class="item-summary">一家Venture Studio专门收购增长缓慢但盈利的中小型独立开发者SaaS产品，已做到ARR超9000万美金。对独立开发者的启示：即使产品增长慢、用户少，只要持续盈利就有退出价值，不必追求爆发式增长。</p>
-      <div class="item-meta">
-        <span class="meta-source">即刻·独立开发</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://x.com/RobHoffman_/status/1998189948437221838" target="_blank" rel="noopener" class="item-title">Bootstrapped SaaS 30天达到2万MRR，第二个产品53天达6.1万MRR</a>
-      </div>
-      <p class="item-summary">创始人Rob Hoffman用同一套获客策略，第一个SaaS 30天做到$20K MRR，第二个53天做到$61K MRR，并在播客中详细拆解了方法论。对独立开发者极具参考价值，可追溯具体策略复用。</p>
-      <div class="item-meta">
-        <span class="meta-source">Twitter·收入</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://x.com/MarieMartens/status/1579482713324937216" target="_blank" rel="noopener" class="item-title">Tally.so创始人分享：Bootstrapped SaaS做到3万MRR的第二年经验</a>
-      </div>
-      <p class="item-summary">表单工具Tally.so创始人Marie公开分享了从0到$30K MRR的Bootstrapping历程及挑战，有完整博客文章。表单赛道竞争激烈但仍有差异化空间，其增长路径对做工具类SaaS的独立开发者有直接参考意义。</p>
-      <div class="item-meta">
-        <span class="meta-source">Twitter·收入</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">✅</span>
-        <a href="https://www.linkedin.com/posts/cy-m-s_when-we-started-haven-we-didnt-bootstrap-activity-7373309630975746049-Fr9j" target="_blank" rel="noopener" class="item-title">我们用"种子自举"模式创业，同时在WhatsApp建起500人早期VC社群</a>
-      </div>
-      <p class="item-summary">Haven团队分享了一种介于Bootstrap和VC融资之间的"seed-strapped"路径，同时通过运营WhatsApp社群积累了500+早期VC和创始人资源。社群冷启动+轻融资的组合打法值得独立开发者借鉴。</p>
+      <p class="item-summary">LinkedIn作者用具体数字对比两条路：VC路径融$200万、招10人、月烧$10万追增长；Indie路径1人独立盈利。指出VC模式"烧掉了一代创始人"，独立开发运动正在崛起，对考虑是否融资的开发者有直接决策参考价值。</p>
       <div class="item-meta">
         <span class="meta-source">LinkedIn·独立开发</span>
         <span class="meta-time">近期</span>
@@ -2892,15 +548,15 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
       </div>
     </div>
   </section>
-  <section class="signal-section" id="social-section-🌱">
-    <h2 class="section-title">🌱 产品发布 <span class="section-count">1</span></h2>
+  <section class="signal-section" id="social-section-✅">
+    <h2 class="section-title">✅ 成功案例 <span class="section-count">1</span></h2>
     
     <div class="news-item">
       <div class="item-header">
-        <span class="signal-badge">🌱</span>
-        <a href="https://x.com/marc_louvion/status/1989675766951678187" target="_blank" rel="noopener" class="item-title">Marc Lou发布TrustMRR：可验证真实收入的创业公司数据库</a>
+        <span class="signal-badge">✅</span>
+        <a href="https://x.com/marc_louvion/status/1989675766951678187" target="_blank" rel="noopener" class="item-title">Marc Lou推出TrustMRR：Stripe API验证真实收入，终结假MRR截图</a>
       </div>
-      <p class="item-summary">Marc Lou上线TrustMRR.com，通过接入只读Stripe API自动验证并展示真实MRR，解决创业圈截图造假问题，目前已累计验证10亿美元收入。这是一个低技术门槛但切中真实痛点的工具产品，商业模式和产品形态值得独立开发者借鉴。</p>
+      <p class="item-summary">Marc Lou上线TrustMRR.com，创始人上传只读Stripe API Key即可生成可验证收入页面，平台已累计验证$10亿创业收入。解决SaaS社区信任问题，可作为独立开发者信用背书工具。</p>
       <div class="item-meta">
         <span class="meta-source">Twitter·收入</span>
         <span class="meta-time">近期</span>
@@ -2914,87 +570,11 @@ body::before { content:''; display:block; height:8px; background:var(--red); }
     <div class="news-item">
       <div class="item-header">
         <span class="signal-badge">🔥</span>
-        <a href="https://www.linkedin.com/posts/jessica-morgan-b56b0315b_indiehacker-startups-saas-activity-7390523039081263105-eDyc" target="_blank" rel="noopener" class="item-title">独立黑客还是VC融资：一代创始人被烧伤后的路径分化</a>
+        <a href="https://x.com/RobHoffman_/status/1998189948437221838" target="_blank" rel="noopener" class="item-title">同一套策略：第1个Bootstrapped SaaS 30天$20K MRR，第2个53天$61K MRR</a>
       </div>
-      <p class="item-summary">文章对比了同一产品的两条路：融资200万、招10人、月烧10万冲增长 vs 独立开发者路线。作者观察到独立黑客运动正在壮大，核心原因是VC路径让上一代创始人付出了过高代价，值得正在选择方向的开发者认真权衡。</p>
+      <p class="item-summary">Rob Hoffman用可复制策略连续冷启动两款SaaS：首款30天达$20K MRR，第二款53天达$61K MRR，已在Greg Isenberg播客详细拆解获客方法，有完整方法论可学习。</p>
       <div class="item-meta">
-        <span class="meta-source">LinkedIn·独立开发</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-  </section>
-  <section class="signal-section" id="social-section-📖">
-    <h2 class="section-title">📖 经验分享 <span class="section-count">6</span></h2>
-    
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://post.smzdm.com/p/anvzqw03" target="_blank" rel="noopener" class="item-title">2026年AI副业：10个低门槛小生意</a>
-      </div>
-      <p class="item-summary">梳理了用DeepSeek、豆包等免费AI工具承接文案类外包的实操路径：在闲鱼/淘宝/小红书开店接单，"AI生成+人工润色"可将效率提升5-10倍。对想做AI工具变现的独立开发者有参考价值，但缺乏具体收入数据，可信度一般。</p>
-      <div class="item-meta">
-        <span class="meta-source">小红书·独立开发</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.xiaohongshu.com/explore/688d5ff8000000002303a172?xsec_token=ABc3hoaHLHsHXwLOX2rI5Mu9g4JiqF762bBKfyzlXEWAs%3D&xsec_source=pc_user&source=web_profile_page" target="_blank" rel="noopener" class="item-title">独立开发抄作业了，一周搞定出海订阅和付费</a>
-      </div>
-      <p class="item-summary">独立开发者分享快速落地出海订阅付费方案的实操经验，一周内完成从0到上线，对想做出海SaaS但卡在支付订阅环节的开发者有直接参考价值。原文内容被截断，核心价值在于"快速复用"路径。</p>
-      <div class="item-meta">
-        <span class="meta-source">小红书·副业</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.linkedin.com/posts/thetoluogundele_before-you-launch-that-startup-product-activity-7403689883396919296-lE9j" target="_blank" rel="noopener" class="item-title">2026年创业前必读：大多数人在犯同一个错误</a>
-      </div>
-      <p class="item-summary">作者深度接触多位创始人和产品团队后发现，大多数人在启动项目前都在重复同一类错误。文章针对产品发布前的准备工作提供实操建议，适合独立开发者在动手前做自我检查。</p>
-      <div class="item-meta">
-        <span class="meta-source">LinkedIn·产品发布</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.linkedin.com/posts/calebsima_everyone-wants-to-be-a-founder-but-the-trend-activity-7425562775298465792-AlKj" target="_blank" rel="noopener" class="item-title">没有使命感的创始人：独立黑客为何从"影响力驱动"转向"财务自由驱动"</a>
-      </div>
-      <p class="item-summary">文章分析知名独立黑客的共同起点：无预算、无团队、只有想法和大量工作。作者指出当前独立开发者群体的动机正在从"改变世界"转向"财务独立"，这一趋势对产品定位和商业模式选择有直接影响。</p>
-      <div class="item-meta">
-        <span class="meta-source">LinkedIn·独立开发</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.linkedin.com/posts/marcelocalbucci_i-just-published-a-deep-dive-on-how-i-built-activity-7434338165508759553-tQkP" target="_blank" rel="noopener" class="item-title">用 Claude Code 构建创业项目的实战经验总结</a>
-      </div>
-      <p class="item-summary">作者用 Claude Code 实际构建并发布了产品，核心结论是：不需要完美产品，需要真实可用的产品；不需要营销团队，需要真实用户反馈。对想用 AI 编程工具快速验证想法的独立开发者有参考价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">LinkedIn·经验分享</span>
-        <span class="meta-time">近期</span>
-        
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="item-header">
-        <span class="signal-badge">📖</span>
-        <a href="https://www.linkedin.com/posts/ashleydmills_the-2016-2026-trend-made-me-pause-not-activity-7422307498944258048-TIj4" target="_blank" rel="noopener" class="item-title">十年创业建产品的教训：好决策往往感觉无聊</a>
-      </div>
-      <p class="item-summary">作者总结十年产品经验，核心洞察是「好决策感觉无聊，坏决策感觉刺激」——冒险抄近路、仓促发布往往是陷阱。对容易被新鲜感驱动、忽视基本功的独立开发者有警示价值。</p>
-      <div class="item-meta">
-        <span class="meta-source">LinkedIn·经验分享</span>
+        <span class="meta-source">Twitter·收入</span>
         <span class="meta-time">近期</span>
         
       </div>
